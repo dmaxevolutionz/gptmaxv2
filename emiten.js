@@ -40917,6 +40917,14 @@ const EMITEN_DATA = [
         "low": 133.0,
         "close": 133.0,
         "volume": 0
+      },
+      {
+        "date": "2026-09-28",
+        "open": 133.0,
+        "high": 133.0,
+        "low": 133.0,
+        "close": 133.0,
+        "volume": 0
       }
     ]
   },
@@ -41864,6 +41872,14 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-09-25",
+        "open": 204.0,
+        "high": 204.0,
+        "low": 204.0,
+        "close": 204.0,
+        "volume": 0
+      },
+      {
+        "date": "2026-09-28",
         "open": 204.0,
         "high": 204.0,
         "low": 204.0,
