@@ -1,13 +1,13 @@
 /**
  * app.js - GPTmax V2 advance
- * Filter Engine, Modal Admin, WA Share & Export Top 20 PNG Canvas
+ * Filter Engine, Admin Panel, Manual Generator, WA Share & Top 20 Canvas PNG Exporter
  */
 let allStocks = [];
 let activeFilter = 'ALL';
 let activeStockForModal = null;
 
 function initApp() {
-  // Hide splash screen after 1.8 seconds
+  // Diskon / Hapus Splash Screen
   setTimeout(() => {
     const splash = document.getElementById('splash-screen');
     if (splash) {
@@ -19,7 +19,7 @@ function initApp() {
   const gridEl = document.getElementById('screener-grid');
   if (!gridEl) return;
 
-  // Load custom stored tickers or EMITEN_DATA
+  // Load custom data tersimpan atau bawaan EMITEN_DATA
   const storedData = localStorage.getItem('CUSTOM_EMITEN_DATA');
   if (storedData) {
     try {
@@ -37,12 +37,12 @@ function initApp() {
     gridEl.innerHTML = `
       <div class="col-span-full text-center py-12 text-red-400 bg-slate-900 border border-red-500/20 rounded-xl p-4 text-xs">
         <p class="font-bold text-sm mb-1">⚠️ Variabel EMITEN_DATA Tidak Ditemukan</p>
-        <p class="text-slate-400">Jalankan <b>python generator.py</b> di terminal untuk memperbarui data.</p>
+        <p class="text-slate-400">Jalankan <b>python generator.py</b> atau gunakan menu Admin untuk memperbarui data.</p>
       </div>
     `;
   }
 
-  // Setup Search Bar Input & Clear X Button
+  // Setup Event Search Input & Tombol X Clear
   const searchInput = document.getElementById('search-input');
   const clearBtn = document.getElementById('clear-search-btn');
 
@@ -205,9 +205,7 @@ function closeModal() {
   activeStockForModal = null;
 }
 
-// ---------------------------------------------------------------------
-// SHARE TO WHATSAPP
-// ---------------------------------------------------------------------
+// SHARE KE WHATSAPP
 function shareWhatsAppCurrent() {
   if (!activeStockForModal) return;
   const s = activeStockForModal;
@@ -231,15 +229,21 @@ function shareWhatsAppCurrent() {
   window.open(url, '_blank');
 }
 
-// ---------------------------------------------------------------------
 // ADMIN MANAGEMENT (Password: 5758)
-// ---------------------------------------------------------------------
 function openAdminModal() {
-  const pass = prompt("Masukkan Password Admin generator.py:");
+  document.getElementById('admin-login-step').classList.remove('hidden');
+  document.getElementById('admin-panel-step').classList.add('hidden');
+  document.getElementById('admin-pass-input').value = '';
+  document.getElementById('admin-modal').classList.remove('hidden');
+}
+
+function verifyAdminPassword() {
+  const pass = document.getElementById('admin-pass-input').value;
   if (pass === "5758") {
+    document.getElementById('admin-login-step').classList.add('hidden');
+    document.getElementById('admin-panel-step').classList.remove('hidden');
     renderAdminEmitenList();
-    document.getElementById('admin-modal').classList.remove('hidden');
-  } else if (pass !== null) {
+  } else {
     alert("❌ Password Salah!");
   }
 }
@@ -310,7 +314,7 @@ function saveAdminState() {
   localStorage.setItem('CUSTOM_EMITEN_DATA', JSON.stringify(allStocks));
   renderAdminEmitenList();
   applyFilterAndRender();
-  alert("Data Emiten Berhasil Diperbarui secara Manual!");
+  alert("Data Emiten Berhasil Diperbarui!");
 }
 
 function resetAdminState() {
@@ -322,11 +326,52 @@ function resetAdminState() {
   }
 }
 
-// ---------------------------------------------------------------------
-// EXPORT 20 EMITEN PALING LAYAK BELI KE GAMBAR PNG (HIGH RES CANVAS)
-// ---------------------------------------------------------------------
+// EKSEKUSI MANUAL generator.py VIA SERVER BACKEND
+async function runGeneratorManual() {
+  const btn = document.getElementById('btn-run-generator');
+  const statusEl = document.getElementById('admin-status-msg');
+
+  if (!btn || !statusEl) return;
+
+  btn.disabled = true;
+  btn.classList.add('opacity-50', 'cursor-not-allowed');
+  btn.innerText = "⏳ Memproses YFinance...";
+
+  statusEl.classList.remove('hidden');
+  statusEl.className = "p-2 rounded-lg bg-slate-950 border border-amber-500/30 text-[11px] text-amber-400 font-mono";
+  statusEl.innerText = "Mengirim perintah ke server... Harap tunggu, sedang menarik data pasar terkini...";
+
+  try {
+    const response = await fetch('/api/run-generator', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    });
+
+    const data = await response.json();
+
+    if (response.ok && data.status === 'success') {
+      statusEl.className = "p-2 rounded-lg bg-emerald-950/80 border border-emerald-500/40 text-[11px] text-emerald-300 font-mono";
+      statusEl.innerText = `✅ ${data.message}\nMemuat ulang data...`;
+
+      setTimeout(() => {
+        location.reload();
+      }, 1500);
+
+    } else {
+      throw new Error(data.error || data.message || "Gagal memproses server");
+    }
+  } catch (err) {
+    statusEl.className = "p-2 rounded-lg bg-red-950/80 border border-red-500/40 text-[11px] text-red-300 font-mono";
+    statusEl.innerText = `❌ Error: ${err.message}\nCatatan: Jalankan web via 'python server.py' untuk mengaktifkan fitur eksekusi otomatis.`;
+  } finally {
+    btn.disabled = false;
+    btn.classList.remove('opacity-50', 'cursor-not-allowed');
+    btn.innerText = "⚡ Eksekusi generator.py";
+  }
+}
+
+// EXPORT TOP 20 EMITEN PALING LAYAK BELI KE GAMBAR PNG
 function exportTop20PNG() {
-  // Ambil 20 emiten dengan score tertinggi & buy zone bagus
   const top20 = [...allStocks]
     .map(s => {
       const history = s.history || [];
@@ -343,32 +388,26 @@ function exportTop20PNG() {
     return;
   }
 
-  // Buat Canvas
   const canvas = document.createElement('canvas');
   const ctx = canvas.getContext('2d');
   canvas.width = 1200;
   canvas.height = 1750;
 
-  // Background
+  // Background Slate 950
   ctx.fillStyle = '#0f172a';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  // Logo dari assets/icon-192.png
+  // Logo dari Assets
   const logo = new Image();
   logo.src = 'assets/icon-192.png';
-  logo.onload = () => {
-    drawCanvasContent();
-  };
-  logo.onerror = () => {
-    drawCanvasContent(); // Tetap cetak walau logo gagal dimuat
-  };
+  logo.onload = () => drawCanvasContent();
+  logo.onerror = () => drawCanvasContent();
 
   function drawCanvasContent() {
     // Header Bar
     ctx.fillStyle = '#1e293b';
     ctx.fillRect(0, 0, canvas.width, 140);
 
-    // Draw Logo
     try {
       ctx.drawImage(logo, 40, 25, 90, 90);
     } catch(e){}
@@ -382,7 +421,7 @@ function exportTop20PNG() {
     ctx.font = '18px sans-serif';
     ctx.fillText('TOP 20 EMITEN PALING LAYAK BELI (SWING SCREENER)', 150, 100);
 
-    // Date
+    // Tanggal
     const today = new Date().toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
     ctx.fillStyle = '#64748b';
     ctx.font = 'bold 16px sans-serif';
@@ -402,7 +441,7 @@ function exportTop20PNG() {
     ctx.fillText('STOP LOSS', 820, 188);
     ctx.fillText('TARGET 1', 1000, 188);
 
-    // Rows
+    // Baris Tabel Top 20
     let startY = 230;
     top20.forEach((item, idx) => {
       ctx.fillStyle = idx % 2 === 0 ? '#1e293b' : '#0f172a';
@@ -451,7 +490,7 @@ function exportTop20PNG() {
     ctx.font = 'italic 16px sans-serif';
     ctx.fillText('Generated automatically by GPTmax V2 advance - Confidential Swing Signal', 40, canvas.height - 30);
 
-    // Download PNG
+    // Trigger Download PNG
     const link = document.createElement('a');
     link.download = `GPTmax_V2_Top20_${new Date().toISOString().split('T')[0]}.png`;
     link.href = canvas.toDataURL('image/png');
