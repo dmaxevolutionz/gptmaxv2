@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPTmax V2 advance</title>
+  
+  <!-- Assets Favicon & Manifest -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f172a">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen pb-12 antialiased selection:bg-amber-500 selection:text-slate-950">
+
+  <!-- SPLASH SCREEN ANIMATION -->
+  <div id="splash-screen" class="fixed inset-0 z-[100] bg-slate-950 flex flex-col items-center justify-center transition-opacity duration-500">
+    <img src="assets/splash.png" onerror="this.src='assets/icon-192.png'" alt="GPTmax V2 advance" class="w-28 h-28 mb-4 animate-pulse object-contain">
+    <h1 class="text-2xl font-black text-amber-400 tracking-wider">GPTmax V2 advance</h1>
+    <p class="text-slate-500 text-xs mt-1">Sistem Analisa Teknikal & Bandarmology Realtime</p>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-30 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 py-3">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-3">
+      
+      <!-- Brand Logo & Title -->
+      <div class="flex items-center gap-2.5 w-full md:w-auto">
+        <img src="assets/icon-192.png" alt="Logo" class="w-8 h-8 object-contain">
+        <div>
+          <h1 class="text-lg font-black tracking-wider text-amber-400 leading-none">GPTmax V2 advance</h1>
+          <p class="text-[10px] text-slate-400 mt-0.5">Screener Swing Saham & Bandarmology</p>
+        </div>
+      </div>
+
+      <!-- Header Action Buttons & Search -->
+      <div class="flex items-center gap-2 w-full md:w-auto justify-end">
+        
+        <!-- Search Bar dengan Tombol X Clear -->
+        <div class="relative w-full md:w-56">
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Cari Ticker/Kategori..." 
+            class="w-full bg-slate-950 border border-slate-700 rounded-lg pl-3 pr-8 py-1.5 text-xs text-amber-300 focus:outline-none focus:border-amber-400 uppercase placeholder:normal-case placeholder:text-slate-500"
+          >
+          <button id="clear-search-btn" onclick="clearSearch()" class="hidden absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 hover:text-amber-400 text-xs font-bold w-4 h-4 flex items-center justify-center rounded-full bg-slate-800">
+            ✕
+          </button>
+        </div>
+
+        <!-- Tombol Export 20 Top PNG -->
+        <button onclick="exportTop20PNG()" class="bg-amber-500 hover:bg-amber-400 text-slate-950 px-3 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap flex items-center gap-1">
+          📸 Top 20 PNG
+        </button>
+
+        <!-- Menu Header Admin Generator -->
+        <button onclick="openAdminModal()" class="bg-slate-800 hover:bg-slate-700 text-amber-400 border border-amber-500/30 px-3 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap flex items-center gap-1">
+          ⚙️ Admin
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Filter Category Tabs -->
+  <nav class="max-w-7xl mx-auto px-4 mt-4">
+    <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none text-xs font-semibold">
+      <button onclick="setFilter('ALL')" id="tab-ALL" class="tab-btn bg-amber-500 text-slate-950 px-3 py-1.5 rounded-lg border border-amber-400 transition-all whitespace-nowrap">
+        🔥 Semua Emiten
+      </button>
+      <button onclick="setFilter('BIG_ACCUM')" id="tab-BIG_ACCUM" class="tab-btn bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200 px-3 py-1.5 rounded-lg transition-all whitespace-nowrap">
+        🐋 Big Accumulation
+      </button>
+      <button onclick="setFilter('BULLISH_POWER')" id="tab-BULLISH_POWER" class="tab-btn bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200 px-3 py-1.5 rounded-lg transition-all whitespace-nowrap">
+        ⚡ Power High (Score > 75)
+      </button>
+      <button onclick="setFilter('VOLUME_SPIKE')" id="tab-VOLUME_SPIKE" class="tab-btn bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200 px-3 py-1.5 rounded-lg transition-all whitespace-nowrap">
+        🔥 Volume Spike (RVOL)
+      </button>
+      <button onclick="setFilter('BUY_ZONE')" id="tab-BUY_ZONE" class="tab-btn bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200 px-3 py-1.5 rounded-lg transition-all whitespace-nowrap">
+        🎯 Area Support / Buy Zone
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Grid Content -->
+  <main class="max-w-7xl mx-auto px-4 mt-4">
+    <div id="screener-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+      <div class="col-span-full text-center py-12 text-slate-500 text-xs">
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-2 border-amber-400 border-t-transparent mb-2"></div>
+        <p>Memuat data pasar GPTmax V2 advance...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- MODAL DETAIL ANALISA SAMA SEPERTI SEBELUMNYA + TOMBOL SHARE WA -->
+  <div id="analysis-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-3 md:p-6 overflow-y-auto">
+    <div class="bg-slate-900 border border-slate-700 w-full max-w-5xl rounded-2xl shadow-2xl overflow-hidden my-auto relative flex flex-col max-h-[90vh]">
+      
+      <!-- Modal Header -->
+      <div class="bg-slate-950 border-b border-slate-800 p-4 flex justify-between items-center sticky top-0 z-10">
+        <div class="flex items-center gap-3">
+          <div class="bg-amber-500/10 border border-amber-500/30 text-amber-400 font-black text-xl px-3 py-1.5 rounded-xl" id="modal-ticker">
+            BBCA
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <h2 id="modal-price" class="text-xl md:text-2xl font-black text-slate-100">Rp 0</h2>
+              <span id="modal-change" class="text-xs font-bold px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">+0.0%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <!-- Tombol Share WA -->
+          <button onclick="shareWhatsAppCurrent()" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 transition-all">
+            💬 Share WA
+          </button>
+          <button onclick="closeModal()" class="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 text-slate-400 hover:text-slate-100 border border-slate-700">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-4 md:p-6 space-y-5 overflow-y-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          
+          <div class="bg-slate-950/80 p-4 rounded-xl border border-slate-800 space-y-3">
+            <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider">⚡ Power Score & Momentum</h3>
+            <div class="flex items-center justify-between bg-slate-900 p-3 rounded-lg border border-slate-800">
+              <span class="text-xs text-slate-400">Power Rating:</span>
+              <div class="text-right">
+                <span id="modal-power-score" class="text-lg font-black text-emerald-400">0/100</span>
+                <span id="modal-power-label" class="block text-[10px] text-emerald-300 font-semibold">-</span>
+              </div>
+            </div>
+            <div class="text-xs text-slate-300">
+              <span>Tren MA: </span><b id="modal-ma-trend" class="text-emerald-400">-</b>
+            </div>
+          </div>
+
+          <div class="bg-slate-950/80 p-4 rounded-xl border border-slate-800 space-y-3">
+            <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider">🐋 Bandarmology & Volume Flow</h3>
+            <div class="flex items-center gap-3 bg-slate-900 p-2.5 rounded-lg border border-slate-800">
+              <span id="modal-bandar-icon" class="text-2xl">⚪</span>
+              <div id="modal-bandar-label" class="text-xs font-bold text-slate-200">-</div>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-xs pt-1 border-t border-slate-800">
+              <div><span class="text-slate-400 text-[10px] block">OBV:</span><b id="modal-obv-status" class="text-emerald-400">-</b></div>
+              <div><span class="text-slate-400 text-[10px] block">RVOL:</span><b id="modal-rvol-val" class="text-amber-300">-</b></div>
+            </div>
+          </div>
+
+          <div class="bg-slate-950/80 p-4 rounded-xl border border-slate-800 space-y-3">
+            <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider">🕯️ Pattern & Stochastic</h3>
+            <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800 text-xs">
+              <span class="text-slate-400 text-[10px] block">Candlestick:</span>
+              <div id="modal-candle-pattern" class="font-bold text-amber-300">-</div>
+            </div>
+            <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800 text-xs">
+              <span class="text-slate-400 text-[10px] block">Stochastic:</span>
+              <div id="modal-stoch-status" class="font-bold text-emerald-400">-</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="bg-slate-950/80 p-5 rounded-xl border border-slate-800 space-y-4">
+          <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider">📋 Trading Plan Lengkap</h3>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+            <div class="bg-slate-900 p-3 rounded-lg border border-slate-800"><span class="text-[10px] text-slate-400 block uppercase">Buy Zone</span><b id="modal-buy-zone" class="text-xs text-emerald-400">-</b></div>
+            <div class="bg-slate-900 p-3 rounded-lg border border-slate-800"><span class="text-[10px] text-slate-400 block uppercase">Stop Loss</span><b id="modal-stop-loss" class="text-xs text-red-400">-</b></div>
+            <div class="bg-slate-900 p-3 rounded-lg border border-slate-800"><span class="text-[10px] text-slate-400 block uppercase">Target 1</span><b id="modal-tp1" class="text-xs text-amber-300">-</b></div>
+            <div class="bg-slate-900 p-3 rounded-lg border border-slate-800"><span class="text-[10px] text-slate-400 block uppercase">Target 2</span><b id="modal-tp2" class="text-xs text-emerald-300">-</b></div>
+          </div>
+          <div class="flex justify-between items-center bg-slate-900 px-4 py-2 rounded-lg border border-slate-800 text-xs">
+            <span class="text-slate-400">Risk/Reward Ratio:</span>
+            <b id="modal-rr-ratio" class="text-emerald-400">-</b>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="bg-slate-950 border-t border-slate-800 p-3 px-6 flex justify-between items-center text-[11px] text-slate-500">
+        <span>* Analisa dibuat otomatis oleh GPTmax V2 advance.</span>
+        <button onclick="closeModal()" class="bg-slate-800 text-slate-300 px-4 py-1.5 rounded-lg font-semibold">Tutup</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MODAL ADMIN GENERATOR (PASSWORD PROTETED: 5758) -->
+  <div id="admin-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-3 md:p-6">
+    <div class="bg-slate-900 border border-amber-500/40 w-full max-w-xl rounded-2xl shadow-2xl p-5 space-y-4">
+      <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+        <h2 class="font-bold text-amber-400 text-sm">⚙️ Admin Generator - Kelola Emiten</h2>
+        <button onclick="closeAdminModal()" class="text-slate-400 hover:text-white">✕</button>
+      </div>
+
+      <div class="flex gap-2">
+        <button onclick="addEmitenAdmin()" class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs px-3 py-1.5 rounded-lg font-bold">
+          + Tambah Emiten
+        </button>
+        <button onclick="resetAdminState()" class="bg-red-600/80 hover:bg-red-600 text-white text-xs px-3 py-1.5 rounded-lg font-bold">
+          🔄 Reset Default
+        </button>
+      </div>
+
+      <!-- Daftar Emiten Admin -->
+      <div id="admin-emiten-list" class="max-h-64 overflow-y-auto space-y-1.5 pr-1"></div>
+
+      <div class="text-[10px] text-slate-500 border-t border-slate-800 pt-3">
+        Perubahan manual di sini disimpan di peramban. Untuk permanen di GitHub, masukkan ticker baru ke <code>RAW_TICKERS</code> pada <code>generator.py</code>.
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="emiten.js"></script>
+  <script src="component.js"></script>
+  <script src="app.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(err => console.log('SW Fail:', err));
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+📁 project-root/
+ ├── 📁 assets/
+ │    ├── 📄 favicon-32.png
+ │    ├── 📄 favicon-64.png
+ │    ├── 📄 icon-192.png
+ │    ├── 📄 icon-512.png
+ │    └── 📄 splash.png
+ ├── 📄 index.html
+ ├── 📄 app.js
+ ├── 📄 component.js
+ ├── 📄 emiten.js
+ ├── 📄 manifest.json
+ ├── 📄 sw.js
+ ├── 📄 generator.py
+ └── 📁 .github/
+      └── 📁 workflows/
+           └── 📄 update_data.yml
