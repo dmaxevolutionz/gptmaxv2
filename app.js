@@ -1,13 +1,12 @@
 /**
  * app.js - GPTmax V2 advance
- * Filter Engine, Admin Panel, Manual Generator, WA Share & Top 20 Canvas PNG Exporter
+ * Signal Bar, Persentase Badge, Admin Manager & Generator Executor
  */
 let allStocks = [];
 let activeFilter = 'ALL';
 let activeStockForModal = null;
 
 function initApp() {
-  // Diskon / Hapus Splash Screen
   setTimeout(() => {
     const splash = document.getElementById('splash-screen');
     if (splash) {
@@ -19,7 +18,6 @@ function initApp() {
   const gridEl = document.getElementById('screener-grid');
   if (!gridEl) return;
 
-  // Load custom data tersimpan atau bawaan EMITEN_DATA
   const storedData = localStorage.getItem('CUSTOM_EMITEN_DATA');
   if (storedData) {
     try {
@@ -37,12 +35,11 @@ function initApp() {
     gridEl.innerHTML = `
       <div class="col-span-full text-center py-12 text-red-400 bg-slate-900 border border-red-500/20 rounded-xl p-4 text-xs">
         <p class="font-bold text-sm mb-1">⚠️ Variabel EMITEN_DATA Tidak Ditemukan</p>
-        <p class="text-slate-400">Jalankan <b>python generator.py</b> atau gunakan menu Admin untuk memperbarui data.</p>
+        <p class="text-slate-400">Jalankan <b>python generator.py</b> atau jalankan server dengan <b>node server.js</b>.</p>
       </div>
     `;
   }
 
-  // Setup Event Search Input & Tombol X Clear
   const searchInput = document.getElementById('search-input');
   const clearBtn = document.getElementById('clear-search-btn');
 
@@ -121,7 +118,13 @@ function renderGrid(stocks) {
     const history = stock.history || [];
     const bandar = SwingIndicators.calculateBandarmology(history);
     const vol = SwingIndicators.calculateVolumeMetrics(history);
+    const power = SwingIndicators.calculatePowerScore(history, stock.price);
     const isPositive = stock.change >= 0;
+
+    // Warna Signal Bar berdasarkan Power Score
+    let barColor = 'bg-red-500';
+    if (power.score >= 75) barColor = 'bg-emerald-400';
+    else if (power.score >= 50) barColor = 'bg-amber-400';
 
     const card = document.createElement('div');
     card.className = "bg-slate-900 hover:bg-slate-800/80 border border-slate-800 hover:border-amber-500/50 p-3 rounded-xl cursor-pointer transition-all duration-200 shadow-lg flex flex-col justify-between";
@@ -129,20 +132,35 @@ function renderGrid(stocks) {
 
     card.innerHTML = `
       <div>
+        <!-- Ticker & Persentase Badge -->
         <div class="flex justify-between items-start mb-1">
           <div>
             <span class="font-black text-amber-400 text-sm tracking-wide block">${stock.ticker}</span>
             <span class="text-[9px] text-slate-500 font-semibold block">${stock.category || 'IDX'}</span>
           </div>
-          <span class="text-[10px] font-bold px-1.5 py-0.5 rounded ${isPositive ? 'bg-emerald-500/20 text-emerald-400' : 'bg-red-500/20 text-red-400'}">
+          <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded ${isPositive ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-red-500/20 text-red-400 border border-red-500/30'}">
             ${isPositive ? '+' : ''}${stock.change}%
           </span>
         </div>
+
+        <!-- Harga Emiten -->
         <div class="text-sm font-extrabold text-slate-100 mb-2">
           Rp ${stock.price.toLocaleString('id-ID')}
         </div>
+
+        <!-- SIGNAL BAR (POWER SCORE BAR) -->
+        <div class="mb-3 space-y-1">
+          <div class="flex justify-between text-[9px] font-bold">
+            <span class="text-slate-400">SIGNAL POWER</span>
+            <span class="${power.score >= 75 ? 'text-emerald-400' : 'text-amber-400'}">${power.score}/100</span>
+          </div>
+          <div class="w-full bg-slate-950 h-1.5 rounded-full overflow-hidden border border-slate-800">
+            <div class="${barColor} h-full transition-all duration-500" style="width: ${power.score}%"></div>
+          </div>
+        </div>
       </div>
 
+      <!-- Bandarmology & RVOL Footer -->
       <div class="border-t border-slate-800/80 pt-2 space-y-1 text-[10px]">
         <div class="flex justify-between text-slate-400">
           <span>Flow:</span>
@@ -205,7 +223,6 @@ function closeModal() {
   activeStockForModal = null;
 }
 
-// SHARE KE WHATSAPP
 function shareWhatsAppCurrent() {
   if (!activeStockForModal) return;
   const s = activeStockForModal;
@@ -326,7 +343,7 @@ function resetAdminState() {
   }
 }
 
-// EKSEKUSI MANUAL generator.py VIA SERVER BACKEND
+// EKSEKUSI MANUAL generator.py VIA BACKEND
 async function runGeneratorManual() {
   const btn = document.getElementById('btn-run-generator');
   const statusEl = document.getElementById('admin-status-msg');
@@ -351,18 +368,18 @@ async function runGeneratorManual() {
 
     if (response.ok && data.status === 'success') {
       statusEl.className = "p-2 rounded-lg bg-emerald-950/80 border border-emerald-500/40 text-[11px] text-emerald-300 font-mono";
-      statusEl.innerText = `✅ ${data.message}\nMemuat ulang data...`;
+      statusEl.innerText = `✅ ${data.message}\nMemuat ulang halaman...`;
 
       setTimeout(() => {
         location.reload();
       }, 1500);
 
     } else {
-      throw new Error(data.error || data.message || "Gagal memproses server");
+      throw new Error(data.error || data.message || "Gagal memproses di server");
     }
   } catch (err) {
     statusEl.className = "p-2 rounded-lg bg-red-950/80 border border-red-500/40 text-[11px] text-red-300 font-mono";
-    statusEl.innerText = `❌ Error: ${err.message}\nCatatan: Jalankan web via 'python server.py' untuk mengaktifkan fitur eksekusi otomatis.`;
+    statusEl.innerText = `❌ Error: ${err.message}\nPastikan Anda menjalankan aplikasi via perintah 'node server.js'.`;
   } finally {
     btn.disabled = false;
     btn.classList.remove('opacity-50', 'cursor-not-allowed');
@@ -370,7 +387,7 @@ async function runGeneratorManual() {
   }
 }
 
-// EXPORT TOP 20 EMITEN PALING LAYAK BELI KE GAMBAR PNG
+// EXPORT TOP 20 PNG
 function exportTop20PNG() {
   const top20 = [...allStocks]
     .map(s => {
@@ -393,26 +410,20 @@ function exportTop20PNG() {
   canvas.width = 1200;
   canvas.height = 1750;
 
-  // Background Slate 950
   ctx.fillStyle = '#0f172a';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  // Logo dari Assets
   const logo = new Image();
   logo.src = 'assets/icon-192.png';
   logo.onload = () => drawCanvasContent();
   logo.onerror = () => drawCanvasContent();
 
   function drawCanvasContent() {
-    // Header Bar
     ctx.fillStyle = '#1e293b';
     ctx.fillRect(0, 0, canvas.width, 140);
 
-    try {
-      ctx.drawImage(logo, 40, 25, 90, 90);
-    } catch(e){}
+    try { ctx.drawImage(logo, 40, 25, 90, 90); } catch(e){}
 
-    // Title
     ctx.fillStyle = '#f59e0b';
     ctx.font = 'bold 36px sans-serif';
     ctx.fillText('GPTmax V2 advance', 150, 65);
@@ -421,13 +432,11 @@ function exportTop20PNG() {
     ctx.font = '18px sans-serif';
     ctx.fillText('TOP 20 EMITEN PALING LAYAK BELI (SWING SCREENER)', 150, 100);
 
-    // Tanggal
     const today = new Date().toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
     ctx.fillStyle = '#64748b';
     ctx.font = 'bold 16px sans-serif';
     ctx.fillText(`Tanggal: ${today}`, 850, 80);
 
-    // Table Header
     ctx.fillStyle = '#334155';
     ctx.fillRect(40, 160, 1120, 45);
 
@@ -441,43 +450,35 @@ function exportTop20PNG() {
     ctx.fillText('STOP LOSS', 820, 188);
     ctx.fillText('TARGET 1', 1000, 188);
 
-    // Baris Tabel Top 20
     let startY = 230;
     top20.forEach((item, idx) => {
       ctx.fillStyle = idx % 2 === 0 ? '#1e293b' : '#0f172a';
       ctx.fillRect(40, startY - 25, 1120, 60);
 
-      // Rank
       ctx.fillStyle = '#f59e0b';
       ctx.font = 'bold 18px sans-serif';
       ctx.fillText(`${idx + 1}`, 60, startY + 10);
 
-      // Ticker
       ctx.fillStyle = '#38bdf8';
       ctx.font = 'bold 20px sans-serif';
       ctx.fillText(item.ticker, 110, startY + 10);
 
-      // Harga
       ctx.fillStyle = '#f8fafc';
       ctx.font = '18px sans-serif';
       ctx.fillText(`Rp ${item.price.toLocaleString('id-ID')}`, 260, startY + 10);
 
-      // Power Score
       ctx.fillStyle = item.powerScore >= 75 ? '#34d399' : '#f59e0b';
       ctx.font = 'bold 18px sans-serif';
       ctx.fillText(`${item.powerScore}/100`, 420, startY + 10);
 
-      // Buy Zone
       ctx.fillStyle = '#a7f3d0';
       ctx.font = '16px sans-serif';
       ctx.fillText(item.plan.buyZone, 620, startY + 10);
 
-      // Stop Loss
       ctx.fillStyle = '#fca5a5';
       ctx.font = '16px sans-serif';
       ctx.fillText(item.plan.stopLoss, 820, startY + 10);
 
-      // Target 1
       ctx.fillStyle = '#fde047';
       ctx.font = '16px sans-serif';
       ctx.fillText(item.plan.tp1, 1000, startY + 10);
@@ -485,12 +486,10 @@ function exportTop20PNG() {
       startY += 65;
     });
 
-    // Footer Watermark
     ctx.fillStyle = '#475569';
     ctx.font = 'italic 16px sans-serif';
-    ctx.fillText('Generated automatically by GPTmax V2 advance - Confidential Swing Signal', 40, canvas.height - 30);
+    ctx.fillText('Generated automatically by GPTmax V2 advance', 40, canvas.height - 30);
 
-    // Trigger Download PNG
     const link = document.createElement('a');
     link.download = `GPTmax_V2_Top20_${new Date().toISOString().split('T')[0]}.png`;
     link.href = canvas.toDataURL('image/png');
