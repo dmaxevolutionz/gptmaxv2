@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GPTmax V2 advance</title>
   
-  <!-- Assets Favicon & Manifest -->
+  <!-- Assets Favicon (PNG) & Manifest -->
+  <link rel="shortcut icon" href="assets/favicon-32.png" type="image/png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
   <link rel="apple-touch-icon" href="assets/icon-192.png">
@@ -24,7 +25,7 @@
     <p class="text-slate-500 text-xs mt-1">Sistem Analisa Teknikal & Bandarmology Realtime</p>
   </div>
 
-  <!-- Header Navigation -->
+  <!-- HEADER NAVIGATION -->
   <header class="sticky top-0 z-30 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 py-3">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-3">
       
@@ -68,7 +69,7 @@
     </div>
   </header>
 
-  <!-- Filter Category Tabs -->
+  <!-- FILTER CATEGORY TABS -->
   <nav class="max-w-7xl mx-auto px-4 mt-4">
     <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none text-xs font-semibold">
       <button onclick="setFilter('ALL')" id="tab-ALL" class="tab-btn bg-amber-500 text-slate-950 px-3 py-1.5 rounded-lg border border-amber-400 transition-all whitespace-nowrap">
@@ -89,7 +90,7 @@
     </div>
   </nav>
 
-  <!-- Main Grid Content -->
+  <!-- MAIN GRID CONTENT -->
   <main class="max-w-7xl mx-auto px-4 mt-4">
     <div id="screener-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
       <div class="col-span-full text-center py-12 text-slate-500 text-xs">
@@ -99,7 +100,7 @@
     </div>
   </main>
 
-  <!-- MODAL DETAIL ANALISA SAMA SEPERTI SEBELUMNYA + TOMBOL SHARE WA -->
+  <!-- MODAL DETAIL ANALISA & SHARE WA -->
   <div id="analysis-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-3 md:p-6 overflow-y-auto">
     <div class="bg-slate-900 border border-slate-700 w-full max-w-5xl rounded-2xl shadow-2xl overflow-hidden my-auto relative flex flex-col max-h-[90vh]">
       
@@ -199,26 +200,48 @@
   <!-- MODAL ADMIN GENERATOR (PASSWORD PROTETED: 5758) -->
   <div id="admin-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-3 md:p-6">
     <div class="bg-slate-900 border border-amber-500/40 w-full max-w-xl rounded-2xl shadow-2xl p-5 space-y-4">
-      <div class="flex justify-between items-center border-b border-slate-800 pb-3">
-        <h2 class="font-bold text-amber-400 text-sm">⚙️ Admin Generator - Kelola Emiten</h2>
-        <button onclick="closeAdminModal()" class="text-slate-400 hover:text-white">✕</button>
+      
+      <!-- Step 1: Form Password HTML (Anti Pop-Up Blocker) -->
+      <div id="admin-login-step" class="space-y-4">
+        <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+          <h2 class="font-bold text-amber-400 text-sm">🔒 Masukkan Password Admin</h2>
+          <button onclick="closeAdminModal()" class="text-slate-400 hover:text-white">✕</button>
+        </div>
+        <div>
+          <input type="password" id="admin-pass-input" placeholder="Masukkan Password (5758)" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-amber-300 focus:outline-none focus:border-amber-400">
+        </div>
+        <div class="flex justify-end gap-2">
+          <button onclick="closeAdminModal()" class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg">Batal</button>
+          <button onclick="verifyAdminPassword()" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs px-4 py-1.5 rounded-lg">Masuk</button>
+        </div>
       </div>
 
-      <div class="flex gap-2">
-        <button onclick="addEmitenAdmin()" class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs px-3 py-1.5 rounded-lg font-bold">
-          + Tambah Emiten
-        </button>
-        <button onclick="resetAdminState()" class="bg-red-600/80 hover:bg-red-600 text-white text-xs px-3 py-1.5 rounded-lg font-bold">
-          🔄 Reset Default
-        </button>
+      <!-- Step 2: Panel Kelola Emiten & Eksekusi Generator -->
+      <div id="admin-panel-step" class="hidden space-y-4">
+        <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+          <h2 class="font-bold text-amber-400 text-sm">⚙️ Admin Generator - Kelola Emiten</h2>
+          <button onclick="closeAdminModal()" class="text-slate-400 hover:text-white">✕</button>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button onclick="runGeneratorManual()" id="btn-run-generator" class="bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs px-3 py-1.5 rounded-lg font-bold flex items-center gap-1">
+            ⚡ Eksekusi generator.py
+          </button>
+          <button onclick="addEmitenAdmin()" class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs px-3 py-1.5 rounded-lg font-bold">
+            + Tambah Emiten
+          </button>
+          <button onclick="resetAdminState()" class="bg-red-600/80 hover:bg-red-600 text-white text-xs px-3 py-1.5 rounded-lg font-bold">
+            🔄 Reset Default
+          </button>
+        </div>
+
+        <!-- Log Pesan Status Eksekusi Generator -->
+        <div id="admin-status-msg" class="hidden p-2 rounded-lg bg-slate-950 border border-slate-800 text-[11px] text-slate-300 font-mono"></div>
+
+        <!-- Daftar Emiten Admin -->
+        <div id="admin-emiten-list" class="max-h-60 overflow-y-auto space-y-1.5 pr-1"></div>
       </div>
 
-      <!-- Daftar Emiten Admin -->
-      <div id="admin-emiten-list" class="max-h-64 overflow-y-auto space-y-1.5 pr-1"></div>
-
-      <div class="text-[10px] text-slate-500 border-t border-slate-800 pt-3">
-        Perubahan manual di sini disimpan di peramban. Untuk permanen di GitHub, masukkan ticker baru ke <code>RAW_TICKERS</code> pada <code>generator.py</code>.
-      </div>
     </div>
   </div>
 
@@ -227,8 +250,9 @@
   <script src="component.js"></script>
   <script src="app.js"></script>
 
+  <!-- Service Worker Register (Hanya di HTTP/HTTPS) -->
   <script>
-    if ('serviceWorker' in navigator) {
+    if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js').catch(err => console.log('SW Fail:', err));
       });
