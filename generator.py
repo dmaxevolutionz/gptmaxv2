@@ -60,6 +60,7 @@ RAW_TICKERS = [
     {"ticker": "ASRI", "category": "Property"}, {"ticker": "ADHI", "category": "Property"},
     {"ticker": "PTPP", "category": "Property"}, {"ticker": "WIKA", "category": "Property"},
     {"ticker": "TOTL", "category": "Property"}, {"ticker": "DILD", "category": "Property"},
+    {"ticker": "JGLE", "category": "Property"},
 
     # Industrial & Agro
     {"ticker": "SMGR", "category": "Industrial/Agro"}, {"ticker": "INTP", "category": "Industrial/Agro"},
