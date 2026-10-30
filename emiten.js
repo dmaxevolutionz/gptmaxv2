@@ -3,17 +3,9 @@ const EMITEN_DATA = [
   {
     "ticker": "BBCA",
     "category": "Bluechip",
-    "price": 4940.0,
-    "change": -6.35,
+    "price": 4980.0,
+    "change": 0.81,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 6474.9,
-        "high": 6474.9,
-        "low": 6400.19,
-        "close": 6425.1,
-        "volume": 101666100
-      },
       {
         "date": "2026-08-06",
         "open": 6425.1,
@@ -485,23 +477,23 @@ const EMITEN_DATA = [
         "low": 4940.0,
         "close": 4940.0,
         "volume": 312439900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 4900.0,
+        "high": 5025.0,
+        "low": 4900.0,
+        "close": 4980.0,
+        "volume": 286386300
       }
     ]
   },
   {
     "ticker": "BBRI",
     "category": "Bluechip",
-    "price": 2810.0,
-    "change": -3.77,
+    "price": 2800.0,
+    "change": -0.36,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 3060.0,
-        "high": 3070.0,
-        "low": 3020.0,
-        "close": 3020.0,
-        "volume": 111460100
-      },
       {
         "date": "2026-08-06",
         "open": 3030.0,
@@ -973,6 +965,14 @@ const EMITEN_DATA = [
         "low": 2810.0,
         "close": 2810.0,
         "volume": 223903000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 2800.0,
+        "high": 2840.0,
+        "low": 2740.0,
+        "close": 2800.0,
+        "volume": 332954600
       }
     ]
   },
@@ -980,16 +980,8 @@ const EMITEN_DATA = [
     "ticker": "BMRI",
     "category": "Bluechip",
     "price": 3720.0,
-    "change": -3.12,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 4195.22,
-        "high": 4214.91,
-        "low": 4155.83,
-        "close": 4155.83,
-        "volume": 122781400
-      },
       {
         "date": "2026-08-06",
         "open": 4175.52,
@@ -1461,23 +1453,23 @@ const EMITEN_DATA = [
         "low": 3720.0,
         "close": 3720.0,
         "volume": 156701700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 3710.0,
+        "high": 3760.0,
+        "low": 3680.0,
+        "close": 3720.0,
+        "volume": 181205300
       }
     ]
   },
   {
     "ticker": "BBNI",
     "category": "Bluechip",
-    "price": 3240.0,
-    "change": -3.28,
+    "price": 3320.0,
+    "change": 2.47,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 3660.0,
-        "high": 3660.0,
-        "low": 3600.0,
-        "close": 3630.0,
-        "volume": 40879400
-      },
       {
         "date": "2026-08-06",
         "open": 3640.0,
@@ -1949,6 +1941,14 @@ const EMITEN_DATA = [
         "low": 3240.0,
         "close": 3240.0,
         "volume": 50053900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 3250.0,
+        "high": 3320.0,
+        "low": 3210.0,
+        "close": 3320.0,
+        "volume": 55725700
       }
     ]
   },
@@ -1956,16 +1956,8 @@ const EMITEN_DATA = [
     "ticker": "TLKM",
     "category": "Bluechip",
     "price": 1980.0,
-    "change": -4.35,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2780.0,
-        "high": 2780.0,
-        "low": 2700.0,
-        "close": 2710.0,
-        "volume": 109494500
-      },
       {
         "date": "2026-08-06",
         "open": 2710.0,
@@ -2437,23 +2429,23 @@ const EMITEN_DATA = [
         "low": 1975.0,
         "close": 1980.0,
         "volume": 270490400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1990.0,
+        "high": 2010.0,
+        "low": 1935.0,
+        "close": 1980.0,
+        "volume": 327989800
       }
     ]
   },
   {
     "ticker": "ASII",
     "category": "Bluechip",
-    "price": 4690.0,
-    "change": -6.2,
+    "price": 4800.0,
+    "change": 2.35,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 5045.07,
-        "high": 5069.56,
-        "low": 4898.13,
-        "close": 4922.62,
-        "volume": 49014700
-      },
       {
         "date": "2026-08-06",
         "open": 4947.11,
@@ -2925,23 +2917,23 @@ const EMITEN_DATA = [
         "low": 4690.0,
         "close": 4690.0,
         "volume": 82082700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 4720.0,
+        "high": 4850.0,
+        "low": 4710.0,
+        "close": 4800.0,
+        "volume": 51365300
       }
     ]
   },
   {
     "ticker": "UNVR",
     "category": "Bluechip",
-    "price": 1400.0,
-    "change": -0.36,
+    "price": 1390.0,
+    "change": -0.71,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1820.0,
-        "high": 1845.0,
-        "low": 1785.0,
-        "close": 1845.0,
-        "volume": 26005100
-      },
       {
         "date": "2026-08-06",
         "open": 1845.0,
@@ -3413,23 +3405,23 @@ const EMITEN_DATA = [
         "low": 1385.0,
         "close": 1400.0,
         "volume": 23262100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1390.0,
+        "high": 1400.0,
+        "low": 1380.0,
+        "close": 1390.0,
+        "volume": 47776300
       }
     ]
   },
   {
     "ticker": "ICBP",
     "category": "Bluechip",
-    "price": 5575.0,
-    "change": -3.46,
+    "price": 5475.0,
+    "change": -1.79,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 7225.0,
-        "high": 7400.0,
-        "low": 7225.0,
-        "close": 7300.0,
-        "volume": 5071600
-      },
       {
         "date": "2026-08-06",
         "open": 7300.0,
@@ -3901,23 +3893,23 @@ const EMITEN_DATA = [
         "low": 5575.0,
         "close": 5575.0,
         "volume": 8734600
+      },
+      {
+        "date": "2026-10-30",
+        "open": 5600.0,
+        "high": 5625.0,
+        "low": 5400.0,
+        "close": 5475.0,
+        "volume": 8724400
       }
     ]
   },
   {
     "ticker": "INDF",
     "category": "Bluechip",
-    "price": 6275.0,
-    "change": -1.57,
+    "price": 6400.0,
+    "change": 1.99,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 7200.0,
-        "high": 7300.0,
-        "low": 7125.0,
-        "close": 7250.0,
-        "volume": 10861900
-      },
       {
         "date": "2026-08-06",
         "open": 7250.0,
@@ -4389,23 +4381,23 @@ const EMITEN_DATA = [
         "low": 6250.0,
         "close": 6275.0,
         "volume": 4533100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 6275.0,
+        "high": 6400.0,
+        "low": 6200.0,
+        "close": 6400.0,
+        "volume": 5186200
       }
     ]
   },
   {
     "ticker": "AMRT",
     "category": "Bluechip",
-    "price": 955.0,
-    "change": -6.37,
+    "price": 915.0,
+    "change": -4.19,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1319.51,
-        "high": 1423.3,
-        "low": 1314.57,
-        "close": 1408.47,
-        "volume": 68734700
-      },
       {
         "date": "2026-08-06",
         "open": 1408.47,
@@ -4877,23 +4869,23 @@ const EMITEN_DATA = [
         "low": 950.0,
         "close": 955.0,
         "volume": 133296100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 955.0,
+        "high": 960.0,
+        "low": 905.0,
+        "close": 915.0,
+        "volume": 110600600
       }
     ]
   },
   {
     "ticker": "TPIA",
     "category": "Bluechip",
-    "price": 1350.0,
-    "change": 1.12,
+    "price": 1280.0,
+    "change": -5.19,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2090.0,
-        "high": 2120.0,
-        "low": 2060.0,
-        "close": 2060.0,
-        "volume": 243303400
-      },
       {
         "date": "2026-08-06",
         "open": 2100.0,
@@ -5365,23 +5357,23 @@ const EMITEN_DATA = [
         "low": 1300.0,
         "close": 1350.0,
         "volume": 360528200
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1330.0,
+        "high": 1365.0,
+        "low": 1260.0,
+        "close": 1280.0,
+        "volume": 234540600
       }
     ]
   },
   {
     "ticker": "BREN",
     "category": "Bluechip",
-    "price": 1930.0,
-    "change": -6.76,
+    "price": 1795.0,
+    "change": -6.99,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 3300.0,
-        "high": 3360.0,
-        "low": 3270.0,
-        "close": 3330.0,
-        "volume": 72678600
-      },
       {
         "date": "2026-08-06",
         "open": 3330.0,
@@ -5850,26 +5842,26 @@ const EMITEN_DATA = [
         "date": "2026-10-29",
         "open": 2060.0,
         "high": 2110.0,
-        "low": 1935.0,
+        "low": 1930.0,
         "close": 1930.0,
         "volume": 6505000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1795.0,
+        "high": 1900.0,
+        "low": 1795.0,
+        "close": 1795.0,
+        "volume": 7711900
       }
     ]
   },
   {
     "ticker": "BYAN",
     "category": "Bluechip",
-    "price": 9550.0,
-    "change": -3.78,
+    "price": 9150.0,
+    "change": -4.19,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 12075.0,
-        "high": 12250.0,
-        "low": 12025.0,
-        "close": 12050.0,
-        "volume": 8100
-      },
       {
         "date": "2026-08-06",
         "open": 12025.0,
@@ -6341,23 +6333,23 @@ const EMITEN_DATA = [
         "low": 9550.0,
         "close": 9550.0,
         "volume": 747500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 9550.0,
+        "high": 9725.0,
+        "low": 8900.0,
+        "close": 9150.0,
+        "volume": 770700
       }
     ]
   },
   {
     "ticker": "CPIN",
     "category": "Bluechip",
-    "price": 2590.0,
-    "change": -3.0,
+    "price": 2550.0,
+    "change": -1.54,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 3170.0,
-        "high": 3170.0,
-        "low": 3110.0,
-        "close": 3110.0,
-        "volume": 17825100
-      },
       {
         "date": "2026-08-06",
         "open": 3110.0,
@@ -6829,23 +6821,23 @@ const EMITEN_DATA = [
         "low": 2580.0,
         "close": 2590.0,
         "volume": 8763700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 2580.0,
+        "high": 2630.0,
+        "low": 2550.0,
+        "close": 2550.0,
+        "volume": 16464300
       }
     ]
   },
   {
     "ticker": "GOTO",
     "category": "Bluechip",
-    "price": 23.0,
-    "change": -4.17,
+    "price": 24.0,
+    "change": 4.35,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 50.0,
-        "high": 50.0,
-        "low": 50.0,
-        "close": 50.0,
-        "volume": 123652900
-      },
       {
         "date": "2026-08-06",
         "open": 50.0,
@@ -7317,23 +7309,23 @@ const EMITEN_DATA = [
         "low": 23.0,
         "close": 23.0,
         "volume": 3893882400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 24.0,
+        "high": 25.0,
+        "low": 23.0,
+        "close": 24.0,
+        "volume": 4250302812
       }
     ]
   },
   {
     "ticker": "KLBF",
     "category": "Bluechip",
-    "price": 715.0,
-    "change": -2.72,
+    "price": 730.0,
+    "change": 2.1,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 735.0,
-        "high": 810.0,
-        "low": 730.0,
-        "close": 800.0,
-        "volume": 254510300
-      },
       {
         "date": "2026-08-06",
         "open": 820.0,
@@ -7805,23 +7797,23 @@ const EMITEN_DATA = [
         "low": 715.0,
         "close": 715.0,
         "volume": 32650900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 715.0,
+        "high": 745.0,
+        "low": 710.0,
+        "close": 730.0,
+        "volume": 63289900
       }
     ]
   },
   {
     "ticker": "ADRO",
     "category": "Energy/Mining",
-    "price": 2370.0,
-    "change": -2.87,
+    "price": 2400.0,
+    "change": 1.27,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2520.0,
-        "high": 2550.0,
-        "low": 2500.0,
-        "close": 2550.0,
-        "volume": 26513000
-      },
       {
         "date": "2026-08-06",
         "open": 2550.0,
@@ -8293,23 +8285,23 @@ const EMITEN_DATA = [
         "low": 2370.0,
         "close": 2370.0,
         "volume": 45173900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 2370.0,
+        "high": 2440.0,
+        "low": 2340.0,
+        "close": 2400.0,
+        "volume": 29991400
       }
     ]
   },
   {
     "ticker": "PTBA",
     "category": "Energy/Mining",
-    "price": 3060.0,
-    "change": -5.85,
+    "price": 3240.0,
+    "change": 5.88,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2370.0,
-        "high": 2370.0,
-        "low": 2340.0,
-        "close": 2360.0,
-        "volume": 13690100
-      },
       {
         "date": "2026-08-06",
         "open": 2360.0,
@@ -8781,23 +8773,23 @@ const EMITEN_DATA = [
         "low": 3040.0,
         "close": 3060.0,
         "volume": 54487800
+      },
+      {
+        "date": "2026-10-30",
+        "open": 3060.0,
+        "high": 3240.0,
+        "low": 2990.0,
+        "close": 3240.0,
+        "volume": 61853600
       }
     ]
   },
   {
     "ticker": "ITMG",
     "category": "Energy/Mining",
-    "price": 24600.0,
-    "change": -1.5,
+    "price": 24900.0,
+    "change": 1.22,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 24825.0,
-        "high": 24850.0,
-        "low": 24600.0,
-        "close": 24700.0,
-        "volume": 819900
-      },
       {
         "date": "2026-08-06",
         "open": 24700.0,
@@ -9269,23 +9261,23 @@ const EMITEN_DATA = [
         "low": 24600.0,
         "close": 24600.0,
         "volume": 1706100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 24600.0,
+        "high": 24950.0,
+        "low": 24325.0,
+        "close": 24900.0,
+        "volume": 1247700
       }
     ]
   },
   {
     "ticker": "MEDC",
     "category": "Energy/Mining",
-    "price": 1340.0,
-    "change": -4.63,
+    "price": 1390.0,
+    "change": 3.73,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1355.0,
-        "high": 1355.0,
-        "low": 1290.0,
-        "close": 1315.0,
-        "volume": 95415800
-      },
       {
         "date": "2026-08-06",
         "open": 1315.0,
@@ -9757,23 +9749,23 @@ const EMITEN_DATA = [
         "low": 1325.0,
         "close": 1340.0,
         "volume": 40419200
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1335.0,
+        "high": 1425.0,
+        "low": 1305.0,
+        "close": 1390.0,
+        "volume": 46839200
       }
     ]
   },
   {
     "ticker": "ANTM",
     "category": "Energy/Mining",
-    "price": 2670.0,
-    "change": -4.64,
+    "price": 2620.0,
+    "change": -1.87,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2930.0,
-        "high": 3080.0,
-        "low": 2920.0,
-        "close": 3070.0,
-        "volume": 187572000
-      },
       {
         "date": "2026-08-06",
         "open": 3170.0,
@@ -10245,23 +10237,23 @@ const EMITEN_DATA = [
         "low": 2670.0,
         "close": 2670.0,
         "volume": 84210000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 2640.0,
+        "high": 2670.0,
+        "low": 2560.0,
+        "close": 2620.0,
+        "volume": 73951200
       }
     ]
   },
   {
     "ticker": "INCO",
     "category": "Energy/Mining",
-    "price": 3400.0,
-    "change": -6.08,
+    "price": 3420.0,
+    "change": 0.59,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 5550.0,
-        "high": 5700.0,
-        "low": 5350.0,
-        "close": 5425.0,
-        "volume": 14375900
-      },
       {
         "date": "2026-08-06",
         "open": 5500.0,
@@ -10733,23 +10725,23 @@ const EMITEN_DATA = [
         "low": 3400.0,
         "close": 3400.0,
         "volume": 8848100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 3390.0,
+        "high": 3490.0,
+        "low": 3270.0,
+        "close": 3420.0,
+        "volume": 9686100
       }
     ]
   },
   {
     "ticker": "PGAS",
     "category": "Energy/Mining",
-    "price": 1215.0,
-    "change": -5.08,
+    "price": 1320.0,
+    "change": 8.64,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1520.0,
-        "high": 1520.0,
-        "low": 1505.0,
-        "close": 1505.0,
-        "volume": 17831200
-      },
       {
         "date": "2026-08-06",
         "open": 1510.0,
@@ -11221,23 +11213,23 @@ const EMITEN_DATA = [
         "low": 1205.0,
         "close": 1215.0,
         "volume": 52495000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1275.0,
+        "high": 1375.0,
+        "low": 1260.0,
+        "close": 1320.0,
+        "volume": 147623000
       }
     ]
   },
   {
     "ticker": "AKRA",
     "category": "Energy/Mining",
-    "price": 1400.0,
-    "change": -0.36,
+    "price": 1375.0,
+    "change": -1.79,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1450.0,
-        "high": 1450.0,
-        "low": 1435.0,
-        "close": 1445.0,
-        "volume": 12890600
-      },
       {
         "date": "2026-08-06",
         "open": 1445.0,
@@ -11709,6 +11701,14 @@ const EMITEN_DATA = [
         "low": 1395.0,
         "close": 1400.0,
         "volume": 25499800
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1395.0,
+        "high": 1400.0,
+        "low": 1350.0,
+        "close": 1375.0,
+        "volume": 12414000
       }
     ]
   },
@@ -11716,16 +11716,8 @@ const EMITEN_DATA = [
     "ticker": "HRUM",
     "category": "Energy/Mining",
     "price": 680.0,
-    "change": -6.21,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 890.0,
-        "high": 895.0,
-        "low": 870.0,
-        "close": 875.0,
-        "volume": 11728700
-      },
       {
         "date": "2026-08-06",
         "open": 875.0,
@@ -12197,23 +12189,23 @@ const EMITEN_DATA = [
         "low": 675.0,
         "close": 680.0,
         "volume": 10792300
+      },
+      {
+        "date": "2026-10-30",
+        "open": 680.0,
+        "high": 695.0,
+        "low": 655.0,
+        "close": 680.0,
+        "volume": 10809700
       }
     ]
   },
   {
     "ticker": "MBMA",
     "category": "Energy/Mining",
-    "price": 306.0,
-    "change": -6.13,
+    "price": 298.0,
+    "change": -2.61,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 550.0,
-        "high": 560.0,
-        "low": 540.0,
-        "close": 550.0,
-        "volume": 142757200
-      },
       {
         "date": "2026-08-06",
         "open": 555.0,
@@ -12685,6 +12677,14 @@ const EMITEN_DATA = [
         "low": 304.0,
         "close": 306.0,
         "volume": 119571100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 304.0,
+        "high": 304.0,
+        "low": 286.0,
+        "close": 298.0,
+        "volume": 144656000
       }
     ]
   },
@@ -12692,16 +12692,8 @@ const EMITEN_DATA = [
     "ticker": "NCKL",
     "category": "Energy/Mining",
     "price": 725.0,
-    "change": -3.33,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 965.0,
-        "high": 965.0,
-        "low": 935.0,
-        "close": 940.0,
-        "volume": 34449000
-      },
       {
         "date": "2026-08-06",
         "open": 950.0,
@@ -13173,23 +13165,23 @@ const EMITEN_DATA = [
         "low": 720.0,
         "close": 725.0,
         "volume": 25251900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 715.0,
+        "high": 740.0,
+        "low": 705.0,
+        "close": 725.0,
+        "volume": 26058500
       }
     ]
   },
   {
     "ticker": "AMMN",
     "category": "Energy/Mining",
-    "price": 3740.0,
-    "change": -4.1,
+    "price": 3650.0,
+    "change": -2.41,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 4300.0,
-        "high": 4430.0,
-        "low": 4280.0,
-        "close": 4420.0,
-        "volume": 107331800
-      },
       {
         "date": "2026-08-06",
         "open": 4480.0,
@@ -13661,23 +13653,23 @@ const EMITEN_DATA = [
         "low": 3700.0,
         "close": 3740.0,
         "volume": 32558900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 3700.0,
+        "high": 3810.0,
+        "low": 3500.0,
+        "close": 3650.0,
+        "volume": 101341000
       }
     ]
   },
   {
     "ticker": "CUAN",
     "category": "Energy/Mining",
-    "price": 410.0,
-    "change": -5.09,
+    "price": 382.0,
+    "change": -6.83,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 675.0,
-        "high": 690.0,
-        "low": 665.0,
-        "close": 675.0,
-        "volume": 174914600
-      },
       {
         "date": "2026-08-06",
         "open": 680.0,
@@ -14149,6 +14141,14 @@ const EMITEN_DATA = [
         "low": 402.0,
         "close": 410.0,
         "volume": 517058000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 408.0,
+        "high": 412.0,
+        "low": 382.0,
+        "close": 382.0,
+        "volume": 294307300
       }
     ]
   },
@@ -14156,16 +14156,8 @@ const EMITEN_DATA = [
     "ticker": "DOID",
     "category": "Energy/Mining",
     "price": 150.0,
-    "change": -0.66,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 214.0,
-        "high": 218.0,
-        "low": 214.0,
-        "close": 218.0,
-        "volume": 3234400
-      },
       {
         "date": "2026-08-06",
         "open": 216.0,
@@ -14637,23 +14629,23 @@ const EMITEN_DATA = [
         "low": 150.0,
         "close": 150.0,
         "volume": 2143900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 151.0,
+        "high": 151.0,
+        "low": 140.0,
+        "close": 150.0,
+        "volume": 6621700
       }
     ]
   },
   {
     "ticker": "INDY",
     "category": "Energy/Mining",
-    "price": 1860.0,
-    "change": -6.77,
+    "price": 1780.0,
+    "change": -4.3,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2520.0,
-        "high": 2650.0,
-        "low": 2500.0,
-        "close": 2590.0,
-        "volume": 32934600
-      },
       {
         "date": "2026-08-06",
         "open": 2650.0,
@@ -15125,23 +15117,23 @@ const EMITEN_DATA = [
         "low": 1860.0,
         "close": 1860.0,
         "volume": 19164300
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1855.0,
+        "high": 1855.0,
+        "low": 1745.0,
+        "close": 1780.0,
+        "volume": 18121200
       }
     ]
   },
   {
     "ticker": "ELSA",
     "category": "Energy/Mining",
-    "price": 620.0,
-    "change": -5.34,
+    "price": 625.0,
+    "change": 0.81,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 690.0,
-        "high": 695.0,
-        "low": 680.0,
-        "close": 695.0,
-        "volume": 19550000
-      },
       {
         "date": "2026-08-06",
         "open": 695.0,
@@ -15613,23 +15605,23 @@ const EMITEN_DATA = [
         "low": 615.0,
         "close": 620.0,
         "volume": 22473300
+      },
+      {
+        "date": "2026-10-30",
+        "open": 620.0,
+        "high": 635.0,
+        "low": 610.0,
+        "close": 625.0,
+        "volume": 15317600
       }
     ]
   },
   {
     "ticker": "ENRG",
     "category": "Energy/Mining",
-    "price": 665.0,
-    "change": -6.99,
+    "price": 620.0,
+    "change": -6.77,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1240.0,
-        "high": 1355.0,
-        "low": 1230.0,
-        "close": 1350.0,
-        "volume": 127815600
-      },
       {
         "date": "2026-08-06",
         "open": 1350.0,
@@ -16101,23 +16093,23 @@ const EMITEN_DATA = [
         "low": 665.0,
         "close": 665.0,
         "volume": 236136600
+      },
+      {
+        "date": "2026-10-30",
+        "open": 620.0,
+        "high": 640.0,
+        "low": 620.0,
+        "close": 620.0,
+        "volume": 95080200
       }
     ]
   },
   {
     "ticker": "BUMI",
     "category": "Energy/Mining",
-    "price": 121.0,
-    "change": -4.72,
+    "price": 119.0,
+    "change": -1.65,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 170.0,
-        "high": 181.0,
-        "low": 169.0,
-        "close": 179.0,
-        "volume": 4551442500
-      },
       {
         "date": "2026-08-06",
         "open": 181.0,
@@ -16589,23 +16581,23 @@ const EMITEN_DATA = [
         "low": 120.0,
         "close": 121.0,
         "volume": 2924146800
+      },
+      {
+        "date": "2026-10-30",
+        "open": 120.0,
+        "high": 123.0,
+        "low": 115.0,
+        "close": 119.0,
+        "volume": 2987834300
       }
     ]
   },
   {
     "ticker": "DEWA",
     "category": "Energy/Mining",
-    "price": 226.0,
-    "change": -5.83,
+    "price": 214.0,
+    "change": -5.31,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 466.0,
-        "high": 486.0,
-        "low": 464.0,
-        "close": 480.0,
-        "volume": 851079600
-      },
       {
         "date": "2026-08-06",
         "open": 488.0,
@@ -17077,23 +17069,23 @@ const EMITEN_DATA = [
         "low": 224.0,
         "close": 226.0,
         "volume": 627012400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 224.0,
+        "high": 228.0,
+        "low": 214.0,
+        "close": 214.0,
+        "volume": 554615300
       }
     ]
   },
   {
     "ticker": "BRMS",
     "category": "Energy/Mining",
-    "price": 356.0,
-    "change": -6.81,
+    "price": 332.0,
+    "change": -6.74,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 590.0,
-        "high": 620.0,
-        "low": 585.0,
-        "close": 610.0,
-        "volume": 543840900
-      },
       {
         "date": "2026-08-06",
         "open": 640.0,
@@ -17565,23 +17557,23 @@ const EMITEN_DATA = [
         "low": 356.0,
         "close": 356.0,
         "volume": 329631200
+      },
+      {
+        "date": "2026-10-30",
+        "open": 342.0,
+        "high": 346.0,
+        "low": 332.0,
+        "close": 332.0,
+        "volume": 434217600
       }
     ]
   },
   {
     "ticker": "HUMI",
     "category": "Energy/Mining",
-    "price": 80.0,
-    "change": -6.98,
+    "price": 75.0,
+    "change": -6.25,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 148.84,
-        "high": 154.83,
-        "low": 145.84,
-        "close": 148.84,
-        "volume": 143333100
-      },
       {
         "date": "2026-08-06",
         "open": 148.84,
@@ -18053,23 +18045,23 @@ const EMITEN_DATA = [
         "low": 80.0,
         "close": 80.0,
         "volume": 13961700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 79.0,
+        "high": 79.0,
+        "low": 75.0,
+        "close": 75.0,
+        "volume": 11514200
       }
     ]
   },
   {
     "ticker": "BNBR",
     "category": "Energy/Mining",
-    "price": 44.0,
-    "change": -6.38,
+    "price": 41.0,
+    "change": -6.82,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 98.0,
-        "high": 102.0,
-        "low": 97.0,
-        "close": 101.0,
-        "volume": 2446467300
-      },
       {
         "date": "2026-08-06",
         "open": 101.0,
@@ -18541,23 +18533,23 @@ const EMITEN_DATA = [
         "low": 44.0,
         "close": 44.0,
         "volume": 277325500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 41.0,
+        "high": 42.0,
+        "low": 41.0,
+        "close": 41.0,
+        "volume": 228841400
       }
     ]
   },
   {
     "ticker": "TINS",
     "category": "Energy/Mining",
-    "price": 3600.0,
-    "change": -5.76,
+    "price": 3660.0,
+    "change": 1.67,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 3860.0,
-        "high": 4000.0,
-        "low": 3860.0,
-        "close": 3880.0,
-        "volume": 74756700
-      },
       {
         "date": "2026-08-06",
         "open": 3940.0,
@@ -19029,23 +19021,23 @@ const EMITEN_DATA = [
         "low": 3590.0,
         "close": 3600.0,
         "volume": 43166600
+      },
+      {
+        "date": "2026-10-30",
+        "open": 3570.0,
+        "high": 3720.0,
+        "low": 3420.0,
+        "close": 3660.0,
+        "volume": 52139900
       }
     ]
   },
   {
     "ticker": "PSAB",
     "category": "Energy/Mining",
-    "price": 402.0,
-    "change": -5.63,
+    "price": 392.0,
+    "change": -2.49,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 414.95,
-        "high": 432.0,
-        "low": 413.05,
-        "close": 428.21,
-        "volume": 116543800
-      },
       {
         "date": "2026-08-06",
         "open": 437.68,
@@ -19517,23 +19509,23 @@ const EMITEN_DATA = [
         "low": 400.0,
         "close": 402.0,
         "volume": 83152700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 404.0,
+        "high": 406.0,
+        "low": 384.0,
+        "close": 392.0,
+        "volume": 78302600
       }
     ]
   },
   {
     "ticker": "BRIS",
     "category": "Financials",
-    "price": 1010.0,
-    "change": -5.61,
+    "price": 1005.0,
+    "change": -0.5,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1815.0,
-        "high": 1835.0,
-        "low": 1795.0,
-        "close": 1800.0,
-        "volume": 20146100
-      },
       {
         "date": "2026-08-06",
         "open": 1800.0,
@@ -20005,23 +19997,23 @@ const EMITEN_DATA = [
         "low": 1010.0,
         "close": 1010.0,
         "volume": 104246700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1005.0,
+        "high": 1025.0,
+        "low": 970.0,
+        "close": 1005.0,
+        "volume": 130069300
       }
     ]
   },
   {
     "ticker": "BBTN",
     "category": "Financials",
-    "price": 910.0,
-    "change": -2.67,
+    "price": 900.0,
+    "change": -1.1,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1235.0,
-        "high": 1240.0,
-        "low": 1215.0,
-        "close": 1220.0,
-        "volume": 14934200
-      },
       {
         "date": "2026-08-06",
         "open": 1220.0,
@@ -20493,23 +20485,23 @@ const EMITEN_DATA = [
         "low": 905.0,
         "close": 910.0,
         "volume": 18625000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 910.0,
+        "high": 925.0,
+        "low": 880.0,
+        "close": 900.0,
+        "volume": 24813000
       }
     ]
   },
   {
     "ticker": "BDMN",
     "category": "Financials",
-    "price": 4860.0,
-    "change": -1.22,
+    "price": 4870.0,
+    "change": 0.21,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 4200.0,
-        "high": 4240.0,
-        "low": 4170.0,
-        "close": 4220.0,
-        "volume": 1693400
-      },
       {
         "date": "2026-08-06",
         "open": 4220.0,
@@ -20981,23 +20973,23 @@ const EMITEN_DATA = [
         "low": 4760.0,
         "close": 4860.0,
         "volume": 2833500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 4850.0,
+        "high": 4870.0,
+        "low": 4700.0,
+        "close": 4870.0,
+        "volume": 4438400
       }
     ]
   },
   {
     "ticker": "BNGA",
     "category": "Financials",
-    "price": 1505.0,
-    "change": -2.27,
+    "price": 1490.0,
+    "change": -1.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1645.0,
-        "high": 1655.0,
-        "low": 1645.0,
-        "close": 1650.0,
-        "volume": 1802400
-      },
       {
         "date": "2026-08-06",
         "open": 1645.0,
@@ -21469,23 +21461,23 @@ const EMITEN_DATA = [
         "low": 1500.0,
         "close": 1505.0,
         "volume": 3505500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1495.0,
+        "high": 1510.0,
+        "low": 1465.0,
+        "close": 1490.0,
+        "volume": 7174700
       }
     ]
   },
   {
     "ticker": "NISP",
     "category": "Financials",
-    "price": 1160.0,
-    "change": -3.33,
+    "price": 1165.0,
+    "change": 0.43,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1295.0,
-        "high": 1295.0,
-        "low": 1270.0,
-        "close": 1280.0,
-        "volume": 6508200
-      },
       {
         "date": "2026-08-06",
         "open": 1280.0,
@@ -21957,6 +21949,14 @@ const EMITEN_DATA = [
         "low": 1160.0,
         "close": 1160.0,
         "volume": 1497600
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1165.0,
+        "high": 1175.0,
+        "low": 1150.0,
+        "close": 1165.0,
+        "volume": 2299800
       }
     ]
   },
@@ -21964,16 +21964,8 @@ const EMITEN_DATA = [
     "ticker": "PNBN",
     "category": "Financials",
     "price": 740.0,
-    "change": -1.33,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 910.0,
-        "high": 915.0,
-        "low": 895.0,
-        "close": 915.0,
-        "volume": 1856100
-      },
       {
         "date": "2026-08-06",
         "open": 915.0,
@@ -22445,23 +22437,23 @@ const EMITEN_DATA = [
         "low": 725.0,
         "close": 740.0,
         "volume": 1023500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 740.0,
+        "high": 740.0,
+        "low": 715.0,
+        "close": 740.0,
+        "volume": 641600
       }
     ]
   },
   {
     "ticker": "ARTO",
     "category": "Financials",
-    "price": 535.0,
-    "change": -5.31,
+    "price": 510.0,
+    "change": -4.67,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1325.0,
-        "high": 1355.0,
-        "low": 1295.0,
-        "close": 1340.0,
-        "volume": 11508700
-      },
       {
         "date": "2026-08-06",
         "open": 1350.0,
@@ -22933,23 +22925,23 @@ const EMITEN_DATA = [
         "low": 530.0,
         "close": 535.0,
         "volume": 16869200
+      },
+      {
+        "date": "2026-10-30",
+        "open": 535.0,
+        "high": 540.0,
+        "low": 500.0,
+        "close": 510.0,
+        "volume": 13430100
       }
     ]
   },
   {
     "ticker": "BBYB",
     "category": "Financials",
-    "price": 150.0,
-    "change": -6.25,
+    "price": 144.0,
+    "change": -4.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 262.0,
-        "high": 266.0,
-        "low": 260.0,
-        "close": 260.0,
-        "volume": 25069300
-      },
       {
         "date": "2026-08-06",
         "open": 264.0,
@@ -23421,23 +23413,23 @@ const EMITEN_DATA = [
         "low": 150.0,
         "close": 150.0,
         "volume": 36889000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 149.0,
+        "high": 151.0,
+        "low": 140.0,
+        "close": 144.0,
+        "volume": 66520600
       }
     ]
   },
   {
     "ticker": "BANK",
     "category": "Financials",
-    "price": 174.0,
-    "change": 0.58,
+    "price": 190.0,
+    "change": 9.2,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 280.0,
-        "high": 282.0,
-        "low": 276.0,
-        "close": 278.0,
-        "volume": 2913500
-      },
       {
         "date": "2026-08-06",
         "open": 278.0,
@@ -23909,23 +23901,23 @@ const EMITEN_DATA = [
         "low": 163.0,
         "close": 174.0,
         "volume": 1485700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 174.0,
+        "high": 193.0,
+        "low": 163.0,
+        "close": 190.0,
+        "volume": 4927600
       }
     ]
   },
   {
     "ticker": "AGRO",
     "category": "Financials",
-    "price": 111.0,
-    "change": -3.48,
+    "price": 108.0,
+    "change": -2.7,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 147.0,
-        "high": 148.0,
-        "low": 146.0,
-        "close": 146.0,
-        "volume": 3388000
-      },
       {
         "date": "2026-08-06",
         "open": 146.0,
@@ -24397,23 +24389,23 @@ const EMITEN_DATA = [
         "low": 110.0,
         "close": 111.0,
         "volume": 2668200
+      },
+      {
+        "date": "2026-10-30",
+        "open": 111.0,
+        "high": 111.0,
+        "low": 105.0,
+        "close": 108.0,
+        "volume": 3728500
       }
     ]
   },
   {
     "ticker": "BSIM",
     "category": "Financials",
-    "price": 770.0,
-    "change": -4.35,
+    "price": 765.0,
+    "change": -0.65,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 690.0,
-        "high": 710.0,
-        "low": 690.0,
-        "close": 700.0,
-        "volume": 12400
-      },
       {
         "date": "2026-08-06",
         "open": 700.0,
@@ -24885,23 +24877,23 @@ const EMITEN_DATA = [
         "low": 770.0,
         "close": 770.0,
         "volume": 34900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 775.0,
+        "high": 775.0,
+        "low": 750.0,
+        "close": 765.0,
+        "volume": 12700
       }
     ]
   },
   {
     "ticker": "MAYA",
     "category": "Financials",
-    "price": 163.0,
-    "change": 0.0,
+    "price": 172.0,
+    "change": 5.52,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 204.0,
-        "high": 204.0,
-        "low": 200.0,
-        "close": 204.0,
-        "volume": 463800
-      },
       {
         "date": "2026-08-06",
         "open": 208.0,
@@ -25373,23 +25365,23 @@ const EMITEN_DATA = [
         "low": 160.0,
         "close": 163.0,
         "volume": 458300
+      },
+      {
+        "date": "2026-10-30",
+        "open": 163.0,
+        "high": 174.0,
+        "low": 156.0,
+        "close": 172.0,
+        "volume": 846400
       }
     ]
   },
   {
     "ticker": "EXCL",
     "category": "Tech/Infra",
-    "price": 1625.0,
-    "change": -3.85,
+    "price": 1720.0,
+    "change": 5.85,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2530.0,
-        "high": 2600.0,
-        "low": 2520.0,
-        "close": 2560.0,
-        "volume": 4775600
-      },
       {
         "date": "2026-08-06",
         "open": 2570.0,
@@ -25861,23 +25853,23 @@ const EMITEN_DATA = [
         "low": 1620.0,
         "close": 1625.0,
         "volume": 7437100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1640.0,
+        "high": 1720.0,
+        "low": 1590.0,
+        "close": 1720.0,
+        "volume": 10613900
       }
     ]
   },
   {
     "ticker": "ISAT",
     "category": "Tech/Infra",
-    "price": 1465.0,
-    "change": -6.69,
+    "price": 1365.0,
+    "change": -6.83,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1990.0,
-        "high": 1995.0,
-        "low": 1885.0,
-        "close": 1900.0,
-        "volume": 62477300
-      },
       {
         "date": "2026-08-06",
         "open": 1895.0,
@@ -26349,6 +26341,14 @@ const EMITEN_DATA = [
         "low": 1465.0,
         "close": 1465.0,
         "volume": 78207100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1365.0,
+        "high": 1400.0,
+        "low": 1365.0,
+        "close": 1365.0,
+        "volume": 67047700
       }
     ]
   },
@@ -26356,16 +26356,8 @@ const EMITEN_DATA = [
     "ticker": "TOWR",
     "category": "Tech/Infra",
     "price": 366.0,
-    "change": -6.63,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 410.0,
-        "high": 420.0,
-        "low": 404.0,
-        "close": 406.0,
-        "volume": 80029900
-      },
       {
         "date": "2026-08-06",
         "open": 406.0,
@@ -26837,23 +26829,23 @@ const EMITEN_DATA = [
         "low": 366.0,
         "close": 366.0,
         "volume": 147295400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 360.0,
+        "high": 372.0,
+        "low": 356.0,
+        "close": 366.0,
+        "volume": 67766400
       }
     ]
   },
   {
     "ticker": "TBIG",
     "category": "Tech/Infra",
-    "price": 1070.0,
-    "change": -1.83,
+    "price": 1010.0,
+    "change": -5.61,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1450.0,
-        "high": 1450.0,
-        "low": 1410.0,
-        "close": 1415.0,
-        "volume": 329900
-      },
       {
         "date": "2026-08-06",
         "open": 1430.0,
@@ -27325,23 +27317,23 @@ const EMITEN_DATA = [
         "low": 1025.0,
         "close": 1070.0,
         "volume": 912500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1045.0,
+        "high": 1045.0,
+        "low": 1000.0,
+        "close": 1010.0,
+        "volume": 2268700
       }
     ]
   },
   {
     "ticker": "MTEL",
     "category": "Tech/Infra",
-    "price": 380.0,
-    "change": -1.04,
+    "price": 386.0,
+    "change": 1.58,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 446.0,
-        "high": 450.0,
-        "low": 444.0,
-        "close": 446.0,
-        "volume": 48022200
-      },
       {
         "date": "2026-08-06",
         "open": 446.0,
@@ -27813,23 +27805,23 @@ const EMITEN_DATA = [
         "low": 378.0,
         "close": 380.0,
         "volume": 5255800
+      },
+      {
+        "date": "2026-10-30",
+        "open": 380.0,
+        "high": 390.0,
+        "low": 374.0,
+        "close": 386.0,
+        "volume": 6820500
       }
     ]
   },
   {
     "ticker": "EMTK",
     "category": "Tech/Infra",
-    "price": 304.0,
-    "change": -6.17,
+    "price": 296.0,
+    "change": -2.63,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 540.0,
-        "high": 550.0,
-        "low": 525.0,
-        "close": 530.0,
-        "volume": 40154800
-      },
       {
         "date": "2026-08-06",
         "open": 535.0,
@@ -28301,6 +28293,14 @@ const EMITEN_DATA = [
         "low": 302.0,
         "close": 304.0,
         "volume": 49201600
+      },
+      {
+        "date": "2026-10-30",
+        "open": 302.0,
+        "high": 306.0,
+        "low": 290.0,
+        "close": 296.0,
+        "volume": 38788500
       }
     ]
   },
@@ -28308,16 +28308,8 @@ const EMITEN_DATA = [
     "ticker": "SCMA",
     "category": "Tech/Infra",
     "price": 130.0,
-    "change": -6.47,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 194.31,
-        "high": 196.19,
-        "low": 190.54,
-        "close": 192.42,
-        "volume": 42336300
-      },
       {
         "date": "2026-08-06",
         "open": 192.42,
@@ -28789,23 +28781,23 @@ const EMITEN_DATA = [
         "low": 130.0,
         "close": 130.0,
         "volume": 69746400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 122.0,
+        "high": 130.0,
+        "low": 121.0,
+        "close": 130.0,
+        "volume": 133310600
       }
     ]
   },
   {
     "ticker": "BUKA",
     "category": "Tech/Infra",
-    "price": 98.0,
-    "change": -2.97,
+    "price": 97.0,
+    "change": -1.02,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 122.0,
-        "high": 125.0,
-        "low": 120.0,
-        "close": 120.0,
-        "volume": 219226100
-      },
       {
         "date": "2026-08-06",
         "open": 120.0,
@@ -29277,23 +29269,23 @@ const EMITEN_DATA = [
         "low": 98.0,
         "close": 98.0,
         "volume": 60976300
+      },
+      {
+        "date": "2026-10-30",
+        "open": 99.0,
+        "high": 100.0,
+        "low": 97.0,
+        "close": 97.0,
+        "volume": 100655000
       }
     ]
   },
   {
     "ticker": "WIFI",
     "category": "Tech/Infra",
-    "price": 935.0,
-    "change": -6.97,
+    "price": 910.0,
+    "change": -2.67,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1960.0,
-        "high": 1990.0,
-        "low": 1955.0,
-        "close": 1980.0,
-        "volume": 11188300
-      },
       {
         "date": "2026-08-06",
         "open": 1995.0,
@@ -29765,23 +29757,23 @@ const EMITEN_DATA = [
         "low": 935.0,
         "close": 935.0,
         "volume": 28812500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 930.0,
+        "high": 955.0,
+        "low": 895.0,
+        "close": 910.0,
+        "volume": 37839800
       }
     ]
   },
   {
     "ticker": "CENT",
     "category": "Tech/Infra",
-    "price": 71.0,
-    "change": 1.43,
+    "price": 68.0,
+    "change": -4.23,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 80.0,
-        "high": 87.0,
-        "low": 80.0,
-        "close": 81.0,
-        "volume": 15893400
-      },
       {
         "date": "2026-08-06",
         "open": 81.0,
@@ -30253,23 +30245,23 @@ const EMITEN_DATA = [
         "low": 69.0,
         "close": 71.0,
         "volume": 15025100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 71.0,
+        "high": 71.0,
+        "low": 67.0,
+        "close": 68.0,
+        "volume": 3527600
       }
     ]
   },
   {
     "ticker": "MLPT",
     "category": "Tech/Infra",
-    "price": 494.0,
-    "change": -4.08,
+    "price": 462.0,
+    "change": -6.48,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1700.0,
-        "high": 1755.0,
-        "low": 1645.0,
-        "close": 1665.0,
-        "volume": 7516800
-      },
       {
         "date": "2026-08-06",
         "open": 1690.0,
@@ -30741,23 +30733,23 @@ const EMITEN_DATA = [
         "low": 480.0,
         "close": 494.0,
         "volume": 2024300
+      },
+      {
+        "date": "2026-10-30",
+        "open": 496.0,
+        "high": 496.0,
+        "low": 460.0,
+        "close": 462.0,
+        "volume": 2664300
       }
     ]
   },
   {
     "ticker": "MTDL",
     "category": "Tech/Infra",
-    "price": 458.0,
-    "change": -4.18,
+    "price": 444.0,
+    "change": -3.06,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 510.0,
-        "high": 520.0,
-        "low": 505.0,
-        "close": 520.0,
-        "volume": 8037100
-      },
       {
         "date": "2026-08-06",
         "open": 520.0,
@@ -31229,23 +31221,23 @@ const EMITEN_DATA = [
         "low": 458.0,
         "close": 458.0,
         "volume": 3438900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 456.0,
+        "high": 458.0,
+        "low": 444.0,
+        "close": 444.0,
+        "volume": 585000
       }
     ]
   },
   {
     "ticker": "MYOR",
     "category": "Consumer/Health",
-    "price": 1370.0,
-    "change": 0.0,
+    "price": 1350.0,
+    "change": -1.46,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1690.0,
-        "high": 1725.0,
-        "low": 1660.0,
-        "close": 1675.0,
-        "volume": 19334500
-      },
       {
         "date": "2026-08-06",
         "open": 1675.0,
@@ -31717,23 +31709,23 @@ const EMITEN_DATA = [
         "low": 1355.0,
         "close": 1370.0,
         "volume": 5485400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1350.0,
+        "high": 1360.0,
+        "low": 1320.0,
+        "close": 1350.0,
+        "volume": 2762200
       }
     ]
   },
   {
     "ticker": "CMRY",
     "category": "Consumer/Health",
-    "price": 4250.0,
-    "change": 2.41,
+    "price": 4220.0,
+    "change": -0.71,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 4534.14,
-        "high": 4700.62,
-        "low": 4504.76,
-        "close": 4651.66,
-        "volume": 4031100
-      },
       {
         "date": "2026-08-06",
         "open": 4651.66,
@@ -32205,23 +32197,23 @@ const EMITEN_DATA = [
         "low": 4150.0,
         "close": 4250.0,
         "volume": 903000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 4280.0,
+        "high": 4350.0,
+        "low": 4120.0,
+        "close": 4220.0,
+        "volume": 1916300
       }
     ]
   },
   {
     "ticker": "ACES",
     "category": "Consumer/Health",
-    "price": 320.0,
-    "change": -3.03,
+    "price": 324.0,
+    "change": 1.25,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 356.0,
-        "high": 366.0,
-        "low": 350.0,
-        "close": 362.0,
-        "volume": 29792500
-      },
       {
         "date": "2026-08-06",
         "open": 364.0,
@@ -32693,23 +32685,23 @@ const EMITEN_DATA = [
         "low": 318.0,
         "close": 320.0,
         "volume": 25254400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 320.0,
+        "high": 328.0,
+        "low": 318.0,
+        "close": 324.0,
+        "volume": 25298600
       }
     ]
   },
   {
     "ticker": "MAPI",
     "category": "Consumer/Health",
-    "price": 1260.0,
-    "change": -4.55,
+    "price": 1235.0,
+    "change": -1.98,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1780.0,
-        "high": 1780.0,
-        "low": 1660.0,
-        "close": 1670.0,
-        "volume": 10765000
-      },
       {
         "date": "2026-08-06",
         "open": 1670.0,
@@ -33181,23 +33173,23 @@ const EMITEN_DATA = [
         "low": 1250.0,
         "close": 1260.0,
         "volume": 1844100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1220.0,
+        "high": 1260.0,
+        "low": 1200.0,
+        "close": 1235.0,
+        "volume": 4076500
       }
     ]
   },
   {
     "ticker": "MAPA",
     "category": "Consumer/Health",
-    "price": 580.0,
-    "change": 0.0,
+    "price": 575.0,
+    "change": -0.86,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 665.0,
-        "high": 695.0,
-        "low": 650.0,
-        "close": 675.0,
-        "volume": 55370600
-      },
       {
         "date": "2026-08-06",
         "open": 685.0,
@@ -33669,23 +33661,23 @@ const EMITEN_DATA = [
         "low": 570.0,
         "close": 580.0,
         "volume": 26506500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 580.0,
+        "high": 585.0,
+        "low": 560.0,
+        "close": 575.0,
+        "volume": 13194000
       }
     ]
   },
   {
     "ticker": "RALS",
     "category": "Consumer/Health",
-    "price": 372.0,
-    "change": 0.0,
+    "price": 368.0,
+    "change": -1.08,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 378.0,
-        "high": 384.0,
-        "low": 376.0,
-        "close": 384.0,
-        "volume": 3070900
-      },
       {
         "date": "2026-08-06",
         "open": 384.0,
@@ -34157,23 +34149,23 @@ const EMITEN_DATA = [
         "low": 368.0,
         "close": 372.0,
         "volume": 782800
+      },
+      {
+        "date": "2026-10-30",
+        "open": 372.0,
+        "high": 372.0,
+        "low": 366.0,
+        "close": 368.0,
+        "volume": 1530700
       }
     ]
   },
   {
     "ticker": "LPPF",
     "category": "Consumer/Health",
-    "price": 1615.0,
-    "change": 0.31,
+    "price": 1595.0,
+    "change": -1.24,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1585.0,
-        "high": 1585.0,
-        "low": 1570.0,
-        "close": 1575.0,
-        "volume": 748600
-      },
       {
         "date": "2026-08-06",
         "open": 1580.0,
@@ -34645,23 +34637,23 @@ const EMITEN_DATA = [
         "low": 1590.0,
         "close": 1615.0,
         "volume": 2022500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1605.0,
+        "high": 1610.0,
+        "low": 1580.0,
+        "close": 1595.0,
+        "volume": 1676500
       }
     ]
   },
   {
     "ticker": "ERAA",
     "category": "Consumer/Health",
-    "price": 515.0,
-    "change": -6.36,
+    "price": 482.0,
+    "change": -6.41,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 460.0,
-        "high": 468.0,
-        "low": 454.0,
-        "close": 456.0,
-        "volume": 128148200
-      },
       {
         "date": "2026-08-06",
         "open": 458.0,
@@ -35133,23 +35125,23 @@ const EMITEN_DATA = [
         "low": 515.0,
         "close": 515.0,
         "volume": 136047900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 500.0,
+        "high": 505.0,
+        "low": 480.0,
+        "close": 482.0,
+        "volume": 205482400
       }
     ]
   },
   {
     "ticker": "MIKA",
     "category": "Consumer/Health",
-    "price": 1370.0,
-    "change": -0.72,
+    "price": 1310.0,
+    "change": -4.38,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1815.0,
-        "high": 1875.0,
-        "low": 1815.0,
-        "close": 1855.0,
-        "volume": 3303800
-      },
       {
         "date": "2026-08-06",
         "open": 1865.0,
@@ -35621,6 +35613,14 @@ const EMITEN_DATA = [
         "low": 1360.0,
         "close": 1370.0,
         "volume": 4703800
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1385.0,
+        "high": 1385.0,
+        "low": 1310.0,
+        "close": 1310.0,
+        "volume": 13697300
       }
     ]
   },
@@ -35628,16 +35628,8 @@ const EMITEN_DATA = [
     "ticker": "HEAL",
     "category": "Consumer/Health",
     "price": 515.0,
-    "change": -5.5,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 795.0,
-        "high": 810.0,
-        "low": 785.0,
-        "close": 795.0,
-        "volume": 15557700
-      },
       {
         "date": "2026-08-06",
         "open": 800.0,
@@ -36109,23 +36101,23 @@ const EMITEN_DATA = [
         "low": 510.0,
         "close": 515.0,
         "volume": 19027400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 515.0,
+        "high": 535.0,
+        "low": 510.0,
+        "close": 515.0,
+        "volume": 13537200
       }
     ]
   },
   {
     "ticker": "SILO",
     "category": "Consumer/Health",
-    "price": 1900.0,
-    "change": 0.0,
+    "price": 1880.0,
+    "change": -1.05,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2320.0,
-        "high": 2350.0,
-        "low": 2270.0,
-        "close": 2320.0,
-        "volume": 208300
-      },
       {
         "date": "2026-08-06",
         "open": 2320.0,
@@ -36597,23 +36589,23 @@ const EMITEN_DATA = [
         "low": 1850.0,
         "close": 1900.0,
         "volume": 1383600
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1900.0,
+        "high": 1950.0,
+        "low": 1850.0,
+        "close": 1880.0,
+        "volume": 2094500
       }
     ]
   },
   {
     "ticker": "SIDO",
     "category": "Consumer/Health",
-    "price": 322.0,
-    "change": -1.83,
+    "price": 324.0,
+    "change": 0.62,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 352.0,
-        "high": 358.0,
-        "low": 350.0,
-        "close": 356.0,
-        "volume": 39633400
-      },
       {
         "date": "2026-08-06",
         "open": 356.0,
@@ -37085,23 +37077,23 @@ const EMITEN_DATA = [
         "low": 322.0,
         "close": 322.0,
         "volume": 11823400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 320.0,
+        "high": 326.0,
+        "low": 316.0,
+        "close": 324.0,
+        "volume": 28029300
       }
     ]
   },
   {
     "ticker": "TSPC",
     "category": "Consumer/Health",
-    "price": 2490.0,
-    "change": -0.4,
+    "price": 2410.0,
+    "change": -3.21,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2830.0,
-        "high": 2840.0,
-        "low": 2800.0,
-        "close": 2840.0,
-        "volume": 210000
-      },
       {
         "date": "2026-08-06",
         "open": 2840.0,
@@ -37573,23 +37565,23 @@ const EMITEN_DATA = [
         "low": 2470.0,
         "close": 2490.0,
         "volume": 511100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 2490.0,
+        "high": 2490.0,
+        "low": 2400.0,
+        "close": 2410.0,
+        "volume": 1250000
       }
     ]
   },
   {
     "ticker": "KAEF",
     "category": "Consumer/Health",
-    "price": 358.0,
-    "change": -0.56,
+    "price": 338.0,
+    "change": -5.59,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 456.0,
-        "high": 462.0,
-        "low": 452.0,
-        "close": 456.0,
-        "volume": 363800
-      },
       {
         "date": "2026-08-06",
         "open": 462.0,
@@ -38061,23 +38053,23 @@ const EMITEN_DATA = [
         "low": 352.0,
         "close": 358.0,
         "volume": 158900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 360.0,
+        "high": 360.0,
+        "low": 334.0,
+        "close": 338.0,
+        "volume": 1294500
       }
     ]
   },
   {
     "ticker": "CLEO",
     "category": "Consumer/Health",
-    "price": 382.0,
-    "change": -2.05,
+    "price": 362.0,
+    "change": -5.24,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 380.0,
-        "high": 394.0,
-        "low": 378.0,
-        "close": 388.0,
-        "volume": 10748300
-      },
       {
         "date": "2026-08-06",
         "open": 390.0,
@@ -38549,23 +38541,23 @@ const EMITEN_DATA = [
         "low": 382.0,
         "close": 382.0,
         "volume": 6725900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 382.0,
+        "high": 384.0,
+        "low": 358.0,
+        "close": 362.0,
+        "volume": 20346800
       }
     ]
   },
   {
     "ticker": "ULTJ",
     "category": "Consumer/Health",
-    "price": 2100.0,
-    "change": -0.94,
+    "price": 2110.0,
+    "change": 0.48,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1515.0,
-        "high": 1515.0,
-        "low": 1480.0,
-        "close": 1490.0,
-        "volume": 2743900
-      },
       {
         "date": "2026-08-06",
         "open": 1500.0,
@@ -39037,23 +39029,23 @@ const EMITEN_DATA = [
         "low": 2080.0,
         "close": 2100.0,
         "volume": 6265400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 2080.0,
+        "high": 2120.0,
+        "low": 2070.0,
+        "close": 2110.0,
+        "volume": 9151000
       }
     ]
   },
   {
     "ticker": "BSDE",
     "category": "Property",
-    "price": 492.0,
-    "change": -0.4,
+    "price": 484.0,
+    "change": -1.63,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 580.0,
-        "high": 595.0,
-        "low": 575.0,
-        "close": 585.0,
-        "volume": 22309200
-      },
       {
         "date": "2026-08-06",
         "open": 590.0,
@@ -39525,23 +39517,23 @@ const EMITEN_DATA = [
         "low": 492.0,
         "close": 492.0,
         "volume": 21290700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 496.0,
+        "high": 498.0,
+        "low": 478.0,
+        "close": 484.0,
+        "volume": 11501500
       }
     ]
   },
   {
     "ticker": "CTRA",
     "category": "Property",
-    "price": 575.0,
-    "change": -0.86,
+    "price": 570.0,
+    "change": -0.87,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 590.0,
-        "high": 620.0,
-        "low": 590.0,
-        "close": 615.0,
-        "volume": 21707100
-      },
       {
         "date": "2026-08-06",
         "open": 620.0,
@@ -40013,23 +40005,23 @@ const EMITEN_DATA = [
         "low": 570.0,
         "close": 575.0,
         "volume": 6423900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 570.0,
+        "high": 580.0,
+        "low": 555.0,
+        "close": 570.0,
+        "volume": 12239500
       }
     ]
   },
   {
     "ticker": "PWON",
     "category": "Property",
-    "price": 286.0,
-    "change": -1.38,
+    "price": 282.0,
+    "change": -1.4,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 260.0,
-        "high": 266.0,
-        "low": 260.0,
-        "close": 266.0,
-        "volume": 33683200
-      },
       {
         "date": "2026-08-06",
         "open": 266.0,
@@ -40501,23 +40493,23 @@ const EMITEN_DATA = [
         "low": 284.0,
         "close": 286.0,
         "volume": 35824500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 288.0,
+        "high": 290.0,
+        "low": 280.0,
+        "close": 282.0,
+        "volume": 44420500
       }
     ]
   },
   {
     "ticker": "SMRA",
     "category": "Property",
-    "price": 244.0,
-    "change": -3.17,
+    "price": 246.0,
+    "change": 0.82,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 320.0,
-        "high": 326.0,
-        "low": 320.0,
-        "close": 326.0,
-        "volume": 9844200
-      },
       {
         "date": "2026-08-06",
         "open": 328.0,
@@ -40989,23 +40981,23 @@ const EMITEN_DATA = [
         "low": 242.0,
         "close": 244.0,
         "volume": 16396900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 244.0,
+        "high": 248.0,
+        "low": 242.0,
+        "close": 246.0,
+        "volume": 34477700
       }
     ]
   },
   {
     "ticker": "ASRI",
     "category": "Property",
-    "price": 97.0,
-    "change": 0.0,
+    "price": 96.0,
+    "change": -1.03,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 120.0,
-        "high": 127.0,
-        "low": 120.0,
-        "close": 123.0,
-        "volume": 31158600
-      },
       {
         "date": "2026-08-06",
         "open": 123.0,
@@ -41477,6 +41469,14 @@ const EMITEN_DATA = [
         "low": 95.0,
         "close": 97.0,
         "volume": 4910000
+      },
+      {
+        "date": "2026-10-30",
+        "open": 97.0,
+        "high": 97.0,
+        "low": 94.0,
+        "close": 96.0,
+        "volume": 2952800
       }
     ]
   },
@@ -41486,14 +41486,6 @@ const EMITEN_DATA = [
     "price": 133.0,
     "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 153.0,
-        "high": 154.0,
-        "low": 149.0,
-        "close": 151.0,
-        "volume": 19075300
-      },
       {
         "date": "2026-08-06",
         "open": 151.0,
@@ -41957,6 +41949,14 @@ const EMITEN_DATA = [
         "low": 133.0,
         "close": 133.0,
         "volume": 0
+      },
+      {
+        "date": "2026-10-29",
+        "open": 133.0,
+        "high": 133.0,
+        "low": 133.0,
+        "close": 133.0,
+        "volume": 0
       }
     ]
   },
@@ -41966,14 +41966,6 @@ const EMITEN_DATA = [
     "price": 161.0,
     "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 202.0,
-        "high": 214.0,
-        "low": 199.0,
-        "close": 200.0,
-        "volume": 7517500
-      },
       {
         "date": "2026-08-06",
         "open": 200.0,
@@ -42437,6 +42429,14 @@ const EMITEN_DATA = [
         "low": 161.0,
         "close": 161.0,
         "volume": 0
+      },
+      {
+        "date": "2026-10-29",
+        "open": 161.0,
+        "high": 161.0,
+        "low": 161.0,
+        "close": 161.0,
+        "volume": 0
       }
     ]
   },
@@ -42446,14 +42446,6 @@ const EMITEN_DATA = [
     "price": 204.0,
     "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 204.0,
-        "high": 204.0,
-        "low": 204.0,
-        "close": 204.0,
-        "volume": 0
-      },
       {
         "date": "2026-08-06",
         "open": 204.0,
@@ -42917,23 +42909,23 @@ const EMITEN_DATA = [
         "low": 204.0,
         "close": 204.0,
         "volume": 0
+      },
+      {
+        "date": "2026-10-29",
+        "open": 204.0,
+        "high": 204.0,
+        "low": 204.0,
+        "close": 204.0,
+        "volume": 0
       }
     ]
   },
   {
     "ticker": "TOTL",
     "category": "Property",
-    "price": 1415.0,
-    "change": -1.39,
+    "price": 1440.0,
+    "change": 1.77,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1175.0,
-        "high": 1215.0,
-        "low": 1175.0,
-        "close": 1215.0,
-        "volume": 5336400
-      },
       {
         "date": "2026-08-06",
         "open": 1220.0,
@@ -43405,23 +43397,23 @@ const EMITEN_DATA = [
         "low": 1400.0,
         "close": 1415.0,
         "volume": 1362100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1405.0,
+        "high": 1440.0,
+        "low": 1360.0,
+        "close": 1440.0,
+        "volume": 2405600
       }
     ]
   },
   {
     "ticker": "DILD",
     "category": "Property",
-    "price": 100.0,
-    "change": -1.96,
+    "price": 101.0,
+    "change": 1.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 120.0,
-        "high": 120.0,
-        "low": 117.0,
-        "close": 118.0,
-        "volume": 9517200
-      },
       {
         "date": "2026-08-06",
         "open": 119.0,
@@ -43893,23 +43885,23 @@ const EMITEN_DATA = [
         "low": 100.0,
         "close": 100.0,
         "volume": 4747800
+      },
+      {
+        "date": "2026-10-30",
+        "open": 101.0,
+        "high": 101.0,
+        "low": 99.0,
+        "close": 101.0,
+        "volume": 17962700
       }
     ]
   },
   {
     "ticker": "JGLE",
     "category": "Property",
-    "price": 32.0,
-    "change": -5.88,
+    "price": 30.0,
+    "change": -6.25,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 80.0,
-        "high": 90.0,
-        "low": 75.0,
-        "close": 83.0,
-        "volume": 4585393500
-      },
       {
         "date": "2026-08-06",
         "open": 83.0,
@@ -44381,23 +44373,23 @@ const EMITEN_DATA = [
         "low": 32.0,
         "close": 32.0,
         "volume": 47834600
+      },
+      {
+        "date": "2026-10-30",
+        "open": 30.0,
+        "high": 31.0,
+        "low": 30.0,
+        "close": 30.0,
+        "volume": 99513500
       }
     ]
   },
   {
     "ticker": "SMGR",
     "category": "Industrial/Agro",
-    "price": 1365.0,
-    "change": -5.21,
+    "price": 1335.0,
+    "change": -2.2,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1545.0,
-        "high": 1575.0,
-        "low": 1530.0,
-        "close": 1565.0,
-        "volume": 13639300
-      },
       {
         "date": "2026-08-06",
         "open": 1580.0,
@@ -44869,23 +44861,23 @@ const EMITEN_DATA = [
         "low": 1360.0,
         "close": 1365.0,
         "volume": 12744100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1365.0,
+        "high": 1370.0,
+        "low": 1305.0,
+        "close": 1335.0,
+        "volume": 14900500
       }
     ]
   },
   {
     "ticker": "INTP",
     "category": "Industrial/Agro",
-    "price": 5500.0,
-    "change": -5.17,
+    "price": 5575.0,
+    "change": 1.36,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 5000.0,
-        "high": 5375.0,
-        "low": 4970.0,
-        "close": 5300.0,
-        "volume": 5355300
-      },
       {
         "date": "2026-08-06",
         "open": 5350.0,
@@ -45357,23 +45349,23 @@ const EMITEN_DATA = [
         "low": 5500.0,
         "close": 5500.0,
         "volume": 693900
+      },
+      {
+        "date": "2026-10-30",
+        "open": 5500.0,
+        "high": 5700.0,
+        "low": 5475.0,
+        "close": 5575.0,
+        "volume": 828400
       }
     ]
   },
   {
     "ticker": "UNTR",
     "category": "Industrial/Agro",
-    "price": 24550.0,
-    "change": -4.1,
+    "price": 24200.0,
+    "change": -1.43,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 23975.0,
-        "high": 24000.0,
-        "low": 23725.0,
-        "close": 23800.0,
-        "volume": 5001400
-      },
       {
         "date": "2026-08-06",
         "open": 23975.0,
@@ -45845,23 +45837,23 @@ const EMITEN_DATA = [
         "low": 24550.0,
         "close": 24550.0,
         "volume": 3204700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 24600.0,
+        "high": 24900.0,
+        "low": 23900.0,
+        "close": 24200.0,
+        "volume": 2142300
       }
     ]
   },
   {
     "ticker": "AUTO",
     "category": "Industrial/Agro",
-    "price": 3290.0,
-    "change": -1.79,
+    "price": 3280.0,
+    "change": -0.3,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2711.09,
-        "high": 2769.81,
-        "low": 2711.09,
-        "close": 2730.67,
-        "volume": 1765500
-      },
       {
         "date": "2026-08-06",
         "open": 2730.67,
@@ -46333,23 +46325,23 @@ const EMITEN_DATA = [
         "low": 3290.0,
         "close": 3290.0,
         "volume": 1605500
+      },
+      {
+        "date": "2026-10-30",
+        "open": 3290.0,
+        "high": 3350.0,
+        "low": 3230.0,
+        "close": 3280.0,
+        "volume": 2153900
       }
     ]
   },
   {
     "ticker": "GJTL",
     "category": "Industrial/Agro",
-    "price": 1150.0,
-    "change": -2.95,
+    "price": 1085.0,
+    "change": -5.65,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1310.0,
-        "high": 1345.0,
-        "low": 1310.0,
-        "close": 1335.0,
-        "volume": 5327600
-      },
       {
         "date": "2026-08-06",
         "open": 1350.0,
@@ -46821,23 +46813,23 @@ const EMITEN_DATA = [
         "low": 1135.0,
         "close": 1150.0,
         "volume": 2867100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1095.0,
+        "high": 1120.0,
+        "low": 1070.0,
+        "close": 1085.0,
+        "volume": 14634700
       }
     ]
   },
   {
     "ticker": "SMSM",
     "category": "Industrial/Agro",
-    "price": 1615.0,
-    "change": -0.31,
+    "price": 1570.0,
+    "change": -2.79,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1754.66,
-        "high": 1759.55,
-        "low": 1749.78,
-        "close": 1754.66,
-        "volume": 3840100
-      },
       {
         "date": "2026-08-06",
         "open": 1754.66,
@@ -47309,23 +47301,23 @@ const EMITEN_DATA = [
         "low": 1605.0,
         "close": 1615.0,
         "volume": 1582100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1605.0,
+        "high": 1605.0,
+        "low": 1520.0,
+        "close": 1570.0,
+        "volume": 5957300
       }
     ]
   },
   {
     "ticker": "MAIN",
     "category": "Industrial/Agro",
-    "price": 565.0,
-    "change": -5.83,
+    "price": 575.0,
+    "change": 1.77,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 680.0,
-        "high": 690.0,
-        "low": 680.0,
-        "close": 680.0,
-        "volume": 788400
-      },
       {
         "date": "2026-08-06",
         "open": 690.0,
@@ -47797,23 +47789,23 @@ const EMITEN_DATA = [
         "low": 565.0,
         "close": 565.0,
         "volume": 701200
+      },
+      {
+        "date": "2026-10-30",
+        "open": 575.0,
+        "high": 600.0,
+        "low": 545.0,
+        "close": 575.0,
+        "volume": 744000
       }
     ]
   },
   {
     "ticker": "JPFA",
     "category": "Industrial/Agro",
-    "price": 1735.0,
-    "change": -4.14,
+    "price": 1740.0,
+    "change": 0.29,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 2190.0,
-        "high": 2230.0,
-        "low": 2180.0,
-        "close": 2230.0,
-        "volume": 7955200
-      },
       {
         "date": "2026-08-06",
         "open": 2230.0,
@@ -48285,23 +48277,23 @@ const EMITEN_DATA = [
         "low": 1730.0,
         "close": 1735.0,
         "volume": 21384100
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1745.0,
+        "high": 1765.0,
+        "low": 1715.0,
+        "close": 1740.0,
+        "volume": 14111000
       }
     ]
   },
   {
     "ticker": "TAPG",
     "category": "Industrial/Agro",
-    "price": 1925.0,
-    "change": -0.52,
+    "price": 1895.0,
+    "change": -1.56,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1773.15,
-        "high": 1797.3,
-        "low": 1758.65,
-        "close": 1777.98,
-        "volume": 12669200
-      },
       {
         "date": "2026-08-06",
         "open": 1782.81,
@@ -48773,23 +48765,23 @@ const EMITEN_DATA = [
         "low": 1900.0,
         "close": 1925.0,
         "volume": 14275400
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1915.0,
+        "high": 1930.0,
+        "low": 1850.0,
+        "close": 1895.0,
+        "volume": 10833600
       }
     ]
   },
   {
     "ticker": "DSNG",
     "category": "Industrial/Agro",
-    "price": 1410.0,
-    "change": -3.75,
+    "price": 1550.0,
+    "change": 9.93,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1400.0,
-        "high": 1410.0,
-        "low": 1370.0,
-        "close": 1375.0,
-        "volume": 6176900
-      },
       {
         "date": "2026-08-06",
         "open": 1375.0,
@@ -49261,6 +49253,14 @@ const EMITEN_DATA = [
         "low": 1380.0,
         "close": 1410.0,
         "volume": 4992700
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1410.0,
+        "high": 1550.0,
+        "low": 1315.0,
+        "close": 1550.0,
+        "volume": 11296600
       }
     ]
   },
@@ -49268,16 +49268,8 @@ const EMITEN_DATA = [
     "ticker": "SSMS",
     "category": "Industrial/Agro",
     "price": 985.0,
-    "change": 4.79,
+    "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 985.0,
-        "high": 995.0,
-        "low": 960.0,
-        "close": 960.0,
-        "volume": 11002000
-      },
       {
         "date": "2026-08-06",
         "open": 965.0,
@@ -49749,23 +49741,23 @@ const EMITEN_DATA = [
         "low": 930.0,
         "close": 985.0,
         "volume": 12683200
+      },
+      {
+        "date": "2026-10-30",
+        "open": 985.0,
+        "high": 1000.0,
+        "low": 935.0,
+        "close": 985.0,
+        "volume": 13327900
       }
     ]
   },
   {
     "ticker": "LSIP",
     "category": "Industrial/Agro",
-    "price": 1410.0,
-    "change": -4.08,
+    "price": 1420.0,
+    "change": 0.71,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 1455.0,
-        "high": 1470.0,
-        "low": 1440.0,
-        "close": 1455.0,
-        "volume": 6350500
-      },
       {
         "date": "2026-08-06",
         "open": 1455.0,
@@ -50237,23 +50229,23 @@ const EMITEN_DATA = [
         "low": 1405.0,
         "close": 1410.0,
         "volume": 12148300
+      },
+      {
+        "date": "2026-10-30",
+        "open": 1400.0,
+        "high": 1430.0,
+        "low": 1375.0,
+        "close": 1420.0,
+        "volume": 8374800
       }
     ]
   },
   {
     "ticker": "AALI",
     "category": "Industrial/Agro",
-    "price": 9475.0,
-    "change": -2.82,
+    "price": 9625.0,
+    "change": 1.58,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 7098.11,
-        "high": 7098.11,
-        "low": 6903.64,
-        "close": 6903.64,
-        "volume": 911100
-      },
       {
         "date": "2026-08-06",
         "open": 6903.64,
@@ -50725,23 +50717,23 @@ const EMITEN_DATA = [
         "low": 9375.0,
         "close": 9475.0,
         "volume": 3016600
+      },
+      {
+        "date": "2026-10-30",
+        "open": 9450.0,
+        "high": 9675.0,
+        "low": 9350.0,
+        "close": 9625.0,
+        "volume": 2347600
       }
     ]
   },
   {
     "ticker": "ASSA",
     "category": "Industrial/Agro",
-    "price": 500.0,
-    "change": -3.85,
+    "price": 486.0,
+    "change": -2.8,
     "history": [
-      {
-        "date": "2026-08-05",
-        "open": 630.0,
-        "high": 655.0,
-        "low": 630.0,
-        "close": 645.0,
-        "volume": 13746800
-      },
       {
         "date": "2026-08-06",
         "open": 645.0,
@@ -51213,6 +51205,14 @@ const EMITEN_DATA = [
         "low": 496.0,
         "close": 500.0,
         "volume": 6706300
+      },
+      {
+        "date": "2026-10-30",
+        "open": 500.0,
+        "high": 500.0,
+        "low": 478.0,
+        "close": 486.0,
+        "volume": 14432900
       }
     ]
   }
