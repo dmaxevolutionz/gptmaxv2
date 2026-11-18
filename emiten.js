@@ -7,14 +7,6 @@ const EMITEN_DATA = [
     "change": -100.0,
     "history": [
       {
-        "date": "2026-08-26",
-        "open": 6425.1,
-        "high": 6425.1,
-        "low": 6325.48,
-        "close": 6325.48,
-        "volume": 86115900
-      },
-      {
         "date": "2026-08-27",
         "open": 6325.48,
         "high": 6400.19,
@@ -480,11 +472,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 5575.0,
+        "high": 5650.0,
+        "low": 5500.0,
+        "close": 5500.0,
+        "volume": 126241800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 126241800
+        "volume": 367781800
       }
     ]
   },
@@ -494,14 +494,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 3170.0,
-        "high": 3170.0,
-        "low": 3110.0,
-        "close": 3130.0,
-        "volume": 159003300
-      },
       {
         "date": "2026-08-27",
         "open": 3110.0,
@@ -968,11 +960,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 3100.0,
+        "high": 3200.0,
+        "low": 3100.0,
+        "close": 3100.0,
+        "volume": 326534500
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 326534500
+        "volume": 314157200
       }
     ]
   },
@@ -982,14 +982,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 4126.28,
-        "high": 4126.28,
-        "low": 4086.89,
-        "close": 4096.74,
-        "volume": 156162500
-      },
       {
         "date": "2026-08-27",
         "open": 4077.04,
@@ -1456,11 +1448,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 3900.0,
+        "high": 4000.0,
+        "low": 3900.0,
+        "close": 3940.0,
+        "volume": 189390100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 189390100
+        "volume": 159466400
       }
     ]
   },
@@ -1470,14 +1470,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 3680.0,
-        "high": 3700.0,
-        "low": 3630.0,
-        "close": 3680.0,
-        "volume": 38659400
-      },
       {
         "date": "2026-08-27",
         "open": 3670.0,
@@ -1944,11 +1936,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 3600.0,
+        "high": 3680.0,
+        "low": 3590.0,
+        "close": 3640.0,
+        "volume": 47472400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 47472400
+        "volume": 73601900
       }
     ]
   },
@@ -1958,14 +1958,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2630.0,
-        "high": 2630.0,
-        "low": 2590.0,
-        "close": 2600.0,
-        "volume": 82579200
-      },
       {
         "date": "2026-08-27",
         "open": 2590.0,
@@ -2432,11 +2424,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 2160.0,
+        "high": 2240.0,
+        "low": 2160.0,
+        "close": 2180.0,
+        "volume": 205434800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 205434800
+        "volume": 197553100
       }
     ]
   },
@@ -2446,14 +2446,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 4702.2,
-        "high": 4712.0,
-        "low": 4643.43,
-        "close": 4682.61,
-        "volume": 47671400
-      },
       {
         "date": "2026-08-27",
         "open": 4682.61,
@@ -2920,11 +2912,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 5700.0,
+        "high": 5800.0,
+        "low": 5650.0,
+        "close": 5650.0,
+        "volume": 47746800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 47746800
+        "volume": 56099800
       }
     ]
   },
@@ -2934,14 +2934,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1800.0,
-        "high": 1800.0,
-        "low": 1755.0,
-        "close": 1765.0,
-        "volume": 8457300
-      },
       {
         "date": "2026-08-27",
         "open": 1765.0,
@@ -3408,11 +3400,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1530.0,
+        "high": 1575.0,
+        "low": 1520.0,
+        "close": 1545.0,
+        "volume": 20900200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 20900200
+        "volume": 20191200
       }
     ]
   },
@@ -3422,14 +3422,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 7750.0,
-        "high": 7925.0,
-        "low": 7675.0,
-        "close": 7850.0,
-        "volume": 10588000
-      },
       {
         "date": "2026-08-27",
         "open": 7825.0,
@@ -3896,11 +3888,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 6850.0,
+        "high": 7025.0,
+        "low": 6850.0,
+        "close": 6925.0,
+        "volume": 5695800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 5695800
+        "volume": 6743600
       }
     ]
   },
@@ -3910,14 +3910,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 7375.0,
-        "high": 7375.0,
-        "low": 7275.0,
-        "close": 7275.0,
-        "volume": 6185900
-      },
       {
         "date": "2026-08-27",
         "open": 7275.0,
@@ -4384,11 +4376,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 7125.0,
+        "high": 7275.0,
+        "low": 7125.0,
+        "close": 7250.0,
+        "volume": 5346000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 5346000
+        "volume": 6408300
       }
     ]
   },
@@ -4398,14 +4398,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1398.59,
-        "high": 1408.47,
-        "low": 1363.99,
-        "close": 1363.99,
-        "volume": 29307200
-      },
       {
         "date": "2026-08-27",
         "open": 1363.99,
@@ -4872,11 +4864,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1045.0,
+        "high": 1070.0,
+        "low": 1035.0,
+        "close": 1045.0,
+        "volume": 15280300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 15280300
+        "volume": 63106000
       }
     ]
   },
@@ -4886,14 +4886,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1990.0,
-        "high": 1995.0,
-        "low": 1870.0,
-        "close": 1870.0,
-        "volume": 346133100
-      },
       {
         "date": "2026-08-27",
         "open": 1850.0,
@@ -5360,11 +5352,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1245.0,
+        "high": 1275.0,
+        "low": 1220.0,
+        "close": 1235.0,
+        "volume": 66204600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 66204600
+        "volume": 56727600
       }
     ]
   },
@@ -5374,14 +5374,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 3400.0,
-        "high": 3410.0,
-        "low": 3300.0,
-        "close": 3310.0,
-        "volume": 21977200
-      },
       {
         "date": "2026-08-27",
         "open": 3310.0,
@@ -5848,11 +5840,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1995.0,
+        "high": 2030.0,
+        "low": 1955.0,
+        "close": 2030.0,
+        "volume": 26380600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 26380600
+        "volume": 25311000
       }
     ]
   },
@@ -5862,14 +5862,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 15100.0,
-        "high": 15975.0,
-        "low": 14700.0,
-        "close": 15325.0,
-        "volume": 1802800
-      },
       {
         "date": "2026-08-27",
         "open": 15500.0,
@@ -6336,11 +6328,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 8500.0,
+        "high": 8775.0,
+        "low": 8500.0,
+        "close": 8650.0,
+        "volume": 463100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 463100
+        "volume": 602000
       }
     ]
   },
@@ -6350,14 +6350,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 3010.0,
-        "high": 3020.0,
-        "low": 2970.0,
-        "close": 2970.0,
-        "volume": 17949700
-      },
       {
         "date": "2026-08-27",
         "open": 2970.0,
@@ -6824,11 +6816,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 2450.0,
+        "high": 2520.0,
+        "low": 2410.0,
+        "close": 2430.0,
+        "volume": 18745500
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 18745500
+        "volume": 27490400
       }
     ]
   },
@@ -6838,14 +6838,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 50.0,
-        "high": 50.0,
-        "low": 50.0,
-        "close": 50.0,
-        "volume": 4339200
-      },
       {
         "date": "2026-08-27",
         "open": 50.0,
@@ -7312,11 +7304,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 26.0,
+        "high": 28.0,
+        "low": 26.0,
+        "close": 27.0,
+        "volume": 6972958800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 2677991504
+        "volume": 1745421600
       }
     ]
   },
@@ -7326,14 +7326,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 810.0,
-        "high": 825.0,
-        "low": 790.0,
-        "close": 805.0,
-        "volume": 76892300
-      },
       {
         "date": "2026-08-27",
         "open": 805.0,
@@ -7800,11 +7792,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 780.0,
+        "high": 805.0,
+        "low": 775.0,
+        "close": 790.0,
+        "volume": 58302200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 58302200
+        "volume": 26191900
       }
     ]
   },
@@ -7814,14 +7814,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2630.0,
-        "high": 2660.0,
-        "low": 2590.0,
-        "close": 2610.0,
-        "volume": 50134700
-      },
       {
         "date": "2026-08-27",
         "open": 2590.0,
@@ -8288,11 +8280,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 2440.0,
+        "high": 2460.0,
+        "low": 2400.0,
+        "close": 2410.0,
+        "volume": 26098800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 26098800
+        "volume": 39852500
       }
     ]
   },
@@ -8302,14 +8302,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2460.0,
-        "high": 2470.0,
-        "low": 2410.0,
-        "close": 2420.0,
-        "volume": 19885800
-      },
       {
         "date": "2026-08-27",
         "open": 2410.0,
@@ -8776,11 +8768,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 3150.0,
+        "high": 3190.0,
+        "low": 3080.0,
+        "close": 3100.0,
+        "volume": 21820300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 21820300
+        "volume": 16973100
       }
     ]
   },
@@ -8790,14 +8790,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 25400.0,
-        "high": 25550.0,
-        "low": 25100.0,
-        "close": 25100.0,
-        "volume": 2132500
-      },
       {
         "date": "2026-08-27",
         "open": 25100.0,
@@ -9264,11 +9256,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 24350.0,
+        "high": 24900.0,
+        "low": 24250.0,
+        "close": 24350.0,
+        "volume": 1556900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1556900
+        "volume": 1188500
       }
     ]
   },
@@ -9278,14 +9278,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1335.0,
-        "high": 1365.0,
-        "low": 1320.0,
-        "close": 1320.0,
-        "volume": 46195700
-      },
       {
         "date": "2026-08-27",
         "open": 1325.0,
@@ -9752,11 +9744,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1180.0,
+        "high": 1210.0,
+        "low": 1175.0,
+        "close": 1205.0,
+        "volume": 45132900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 45132900
+        "volume": 48940000
       }
     ]
   },
@@ -9766,14 +9766,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 3200.0,
-        "high": 3290.0,
-        "low": 3140.0,
-        "close": 3160.0,
-        "volume": 125424800
-      },
       {
         "date": "2026-08-27",
         "open": 3100.0,
@@ -10240,11 +10232,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 2680.0,
+        "high": 2750.0,
+        "low": 2680.0,
+        "close": 2730.0,
+        "volume": 45339000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 45339000
+        "volume": 82400400
       }
     ]
   },
@@ -10254,14 +10254,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 5275.0,
-        "high": 5350.0,
-        "low": 5150.0,
-        "close": 5200.0,
-        "volume": 15526000
-      },
       {
         "date": "2026-08-27",
         "open": 5200.0,
@@ -10728,11 +10720,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 3460.0,
+        "high": 3550.0,
+        "low": 3450.0,
+        "close": 3480.0,
+        "volume": 11250400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 11250400
+        "volume": 22928400
       }
     ]
   },
@@ -10742,14 +10742,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1545.0,
-        "high": 1550.0,
-        "low": 1515.0,
-        "close": 1520.0,
-        "volume": 52147400
-      },
       {
         "date": "2026-08-27",
         "open": 1520.0,
@@ -11216,11 +11208,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1550.0,
+        "high": 1560.0,
+        "low": 1530.0,
+        "close": 1530.0,
+        "volume": 27652400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 27652400
+        "volume": 40156400
       }
     ]
   },
@@ -11230,14 +11230,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1390.0,
-        "high": 1395.0,
-        "low": 1365.0,
-        "close": 1365.0,
-        "volume": 9238900
-      },
       {
         "date": "2026-08-27",
         "open": 1365.0,
@@ -11704,11 +11696,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1255.0,
+        "high": 1285.0,
+        "low": 1250.0,
+        "close": 1260.0,
+        "volume": 15702900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 15702900
+        "volume": 9857300
       }
     ]
   },
@@ -11718,14 +11718,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 935.0,
-        "high": 935.0,
-        "low": 880.0,
-        "close": 885.0,
-        "volume": 29283500
-      },
       {
         "date": "2026-08-27",
         "open": 880.0,
@@ -12192,11 +12184,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 670.0,
+        "high": 690.0,
+        "low": 660.0,
+        "close": 675.0,
+        "volume": 15730600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 15730600
+        "volume": 7937500
       }
     ]
   },
@@ -12206,14 +12206,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 565.0,
-        "high": 595.0,
-        "low": 545.0,
-        "close": 545.0,
-        "volume": 239088200
-      },
       {
         "date": "2026-08-27",
         "open": 540.0,
@@ -12680,11 +12672,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 324.0,
+        "high": 340.0,
+        "low": 322.0,
+        "close": 332.0,
+        "volume": 155872100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 155872100
+        "volume": 173035900
       }
     ]
   },
@@ -12694,14 +12694,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 960.0,
-        "high": 980.0,
-        "low": 935.0,
-        "close": 940.0,
-        "volume": 42142100
-      },
       {
         "date": "2026-08-27",
         "open": 930.0,
@@ -13168,11 +13160,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 720.0,
+        "high": 740.0,
+        "low": 715.0,
+        "close": 725.0,
+        "volume": 32852700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 32852700
+        "volume": 53510400
       }
     ]
   },
@@ -13182,14 +13182,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 4520.0,
-        "high": 4600.0,
-        "low": 4390.0,
-        "close": 4390.0,
-        "volume": 77753300
-      },
       {
         "date": "2026-08-27",
         "open": 4380.0,
@@ -13656,11 +13648,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 3510.0,
+        "high": 3540.0,
+        "low": 3400.0,
+        "close": 3410.0,
+        "volume": 54721200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 54721200
+        "volume": 58565900
       }
     ]
   },
@@ -13670,14 +13670,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 825.0,
-        "high": 830.0,
-        "low": 770.0,
-        "close": 770.0,
-        "volume": 478866600
-      },
       {
         "date": "2026-08-27",
         "open": 755.0,
@@ -14144,11 +14136,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 386.0,
+        "high": 398.0,
+        "low": 370.0,
+        "close": 378.0,
+        "volume": 112953700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 112953700
+        "volume": 84370700
       }
     ]
   },
@@ -14158,14 +14158,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 240.0,
-        "high": 246.0,
-        "low": 222.0,
-        "close": 224.0,
-        "volume": 4684400
-      },
       {
         "date": "2026-08-27",
         "open": 220.0,
@@ -14632,11 +14624,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 131.0,
+        "high": 133.0,
+        "low": 128.0,
+        "close": 129.0,
+        "volume": 1969600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1969600
+        "volume": 1420200
       }
     ]
   },
@@ -14646,14 +14646,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2720.0,
-        "high": 2820.0,
-        "low": 2650.0,
-        "close": 2650.0,
-        "volume": 31994200
-      },
       {
         "date": "2026-08-27",
         "open": 2610.0,
@@ -15120,11 +15112,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1860.0,
+        "high": 1885.0,
+        "low": 1790.0,
+        "close": 1820.0,
+        "volume": 13826300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 13826300
+        "volume": 29171700
       }
     ]
   },
@@ -15134,14 +15134,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 705.0,
-        "high": 705.0,
-        "low": 675.0,
-        "close": 675.0,
-        "volume": 32215100
-      },
       {
         "date": "2026-08-27",
         "open": 665.0,
@@ -15608,11 +15600,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 590.0,
+        "high": 600.0,
+        "low": 585.0,
+        "close": 595.0,
+        "volume": 15491800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 15491800
+        "volume": 9468400
       }
     ]
   },
@@ -15622,14 +15622,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1250.0,
-        "high": 1260.0,
-        "low": 1205.0,
-        "close": 1220.0,
-        "volume": 86297200
-      },
       {
         "date": "2026-08-27",
         "open": 1200.0,
@@ -16096,11 +16088,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 625.0,
+        "high": 640.0,
+        "low": 590.0,
+        "close": 590.0,
+        "volume": 101209000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 101209000
+        "volume": 112041000
       }
     ]
   },
@@ -16110,14 +16110,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 194.0,
-        "high": 195.0,
-        "low": 184.0,
-        "close": 184.0,
-        "volume": 2738635400
-      },
       {
         "date": "2026-08-27",
         "open": 181.0,
@@ -16584,11 +16576,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 131.0,
+        "high": 135.0,
+        "low": 129.0,
+        "close": 131.0,
+        "volume": 1404071500
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1404071500
+        "volume": 2639225000
       }
     ]
   },
@@ -16598,14 +16598,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 454.0,
-        "high": 456.0,
-        "low": 420.0,
-        "close": 420.0,
-        "volume": 521980200
-      },
       {
         "date": "2026-08-27",
         "open": 416.0,
@@ -17072,11 +17064,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 244.0,
+        "high": 254.0,
+        "low": 240.0,
+        "close": 246.0,
+        "volume": 245666900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 245666900
+        "volume": 309283300
       }
     ]
   },
@@ -17086,14 +17086,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 740.0,
-        "high": 760.0,
-        "low": 720.0,
-        "close": 720.0,
-        "volume": 445613200
-      },
       {
         "date": "2026-08-27",
         "open": 710.0,
@@ -17560,11 +17552,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 314.0,
+        "high": 322.0,
+        "low": 304.0,
+        "close": 304.0,
+        "volume": 676428700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 676428700
+        "volume": 410423600
       }
     ]
   },
@@ -17574,14 +17574,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 148.0,
-        "high": 148.0,
-        "low": 131.0,
-        "close": 131.0,
-        "volume": 111156500
-      },
       {
         "date": "2026-08-27",
         "open": 131.0,
@@ -18048,11 +18040,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 81.0,
+        "high": 82.0,
+        "low": 79.0,
+        "close": 82.0,
+        "volume": 10915900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 10915900
+        "volume": 251037700
       }
     ]
   },
@@ -18062,14 +18062,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 100.0,
-        "high": 102.0,
-        "low": 95.0,
-        "close": 95.0,
-        "volume": 1567166000
-      },
       {
         "date": "2026-08-27",
         "open": 95.0,
@@ -18536,11 +18528,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 46.0,
+        "high": 48.0,
+        "low": 45.0,
+        "close": 46.0,
+        "volume": 237223200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 237223200
+        "volume": 212604700
       }
     ]
   },
@@ -18550,14 +18550,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 4150.0,
-        "high": 4180.0,
-        "low": 4010.0,
-        "close": 4020.0,
-        "volume": 42607700
-      },
       {
         "date": "2026-08-27",
         "open": 4000.0,
@@ -19024,11 +19016,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 3420.0,
+        "high": 3490.0,
+        "low": 3380.0,
+        "close": 3460.0,
+        "volume": 29347700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 29347700
+        "volume": 67833500
       }
     ]
   },
@@ -19038,14 +19038,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 606.32,
-        "high": 625.26,
-        "low": 592.11,
-        "close": 601.58,
-        "volume": 148057600
-      },
       {
         "date": "2026-08-27",
         "open": 601.58,
@@ -19512,11 +19504,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 416.0,
+        "high": 424.0,
+        "low": 412.0,
+        "close": 416.0,
+        "volume": 72265700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 72265700
+        "volume": 75358400
       }
     ]
   },
@@ -19526,14 +19526,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1805.0,
-        "high": 1810.0,
-        "low": 1780.0,
-        "close": 1780.0,
-        "volume": 10831900
-      },
       {
         "date": "2026-08-27",
         "open": 1770.0,
@@ -20000,11 +19992,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1120.0,
+        "high": 1235.0,
+        "low": 1115.0,
+        "close": 1225.0,
+        "volume": 139210900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 139210900
+        "volume": 176351700
       }
     ]
   },
@@ -20014,14 +20014,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1220.0,
-        "high": 1225.0,
-        "low": 1200.0,
-        "close": 1205.0,
-        "volume": 13527100
-      },
       {
         "date": "2026-08-27",
         "open": 1200.0,
@@ -20488,11 +20480,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1020.0,
+        "high": 1065.0,
+        "low": 1015.0,
+        "close": 1050.0,
+        "volume": 25831000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 25831000
+        "volume": 33940700
       }
     ]
   },
@@ -20502,14 +20502,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 4260.0,
-        "high": 4260.0,
-        "low": 4190.0,
-        "close": 4200.0,
-        "volume": 1561500
-      },
       {
         "date": "2026-08-27",
         "open": 4200.0,
@@ -20976,11 +20968,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 4730.0,
+        "high": 4750.0,
+        "low": 4690.0,
+        "close": 4720.0,
+        "volume": 1663600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1663600
+        "volume": 732300
       }
     ]
   },
@@ -20990,14 +20990,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1665.0,
-        "high": 1675.0,
-        "low": 1665.0,
-        "close": 1665.0,
-        "volume": 2174000
-      },
       {
         "date": "2026-08-27",
         "open": 1665.0,
@@ -21464,11 +21456,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1560.0,
+        "high": 1585.0,
+        "low": 1540.0,
+        "close": 1555.0,
+        "volume": 3617000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 3617000
+        "volume": 6139700
       }
     ]
   },
@@ -21478,14 +21478,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1265.0,
-        "high": 1265.0,
-        "low": 1245.0,
-        "close": 1245.0,
-        "volume": 2573000
-      },
       {
         "date": "2026-08-27",
         "open": 1250.0,
@@ -21952,11 +21944,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1165.0,
+        "high": 1175.0,
+        "low": 1160.0,
+        "close": 1165.0,
+        "volume": 3659200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 3659200
+        "volume": 5326700
       }
     ]
   },
@@ -21966,14 +21966,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 900.0,
-        "high": 900.0,
-        "low": 885.0,
-        "close": 895.0,
-        "volume": 1512700
-      },
       {
         "date": "2026-08-27",
         "open": 890.0,
@@ -22440,11 +22432,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 740.0,
+        "high": 820.0,
+        "low": 740.0,
+        "close": 790.0,
+        "volume": 11660200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 11660200
+        "volume": 5023600
       }
     ]
   },
@@ -22454,14 +22454,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1005.0,
-        "high": 1005.0,
-        "low": 975.0,
-        "close": 980.0,
-        "volume": 17103100
-      },
       {
         "date": "2026-08-27",
         "open": 980.0,
@@ -22928,11 +22920,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 530.0,
+        "high": 575.0,
+        "low": 496.0,
+        "close": 535.0,
+        "volume": 46204000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 46204000
+        "volume": 32747200
       }
     ]
   },
@@ -22942,14 +22942,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 252.0,
-        "high": 252.0,
-        "low": 242.0,
-        "close": 242.0,
-        "volume": 27829900
-      },
       {
         "date": "2026-08-27",
         "open": 240.0,
@@ -23416,11 +23408,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 161.0,
+        "high": 182.0,
+        "low": 160.0,
+        "close": 176.0,
+        "volume": 211088000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 211088000
+        "volume": 370163500
       }
     ]
   },
@@ -23430,14 +23430,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 270.0,
-        "high": 272.0,
-        "low": 266.0,
-        "close": 270.0,
-        "volume": 1335300
-      },
       {
         "date": "2026-08-27",
         "open": 270.0,
@@ -23904,11 +23896,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 164.0,
+        "high": 168.0,
+        "low": 161.0,
+        "close": 162.0,
+        "volume": 2021300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 2021300
+        "volume": 1900800
       }
     ]
   },
@@ -23918,14 +23918,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 151.0,
-        "high": 151.0,
-        "low": 145.0,
-        "close": 145.0,
-        "volume": 6936000
-      },
       {
         "date": "2026-08-27",
         "open": 145.0,
@@ -24392,11 +24384,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 109.0,
+        "high": 120.0,
+        "low": 109.0,
+        "close": 116.0,
+        "volume": 11522700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 11522700
+        "volume": 12566200
       }
     ]
   },
@@ -24406,14 +24406,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 710.0,
-        "high": 710.0,
-        "low": 695.0,
-        "close": 695.0,
-        "volume": 8400
-      },
       {
         "date": "2026-08-27",
         "open": 705.0,
@@ -24880,11 +24872,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 830.0,
+        "high": 845.0,
+        "low": 800.0,
+        "close": 800.0,
+        "volume": 46300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 46300
+        "volume": 27400
       }
     ]
   },
@@ -24894,14 +24894,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 200.0,
-        "high": 202.0,
-        "low": 197.0,
-        "close": 198.0,
-        "volume": 647100
-      },
       {
         "date": "2026-08-27",
         "open": 196.0,
@@ -25368,11 +25360,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 161.0,
+        "high": 167.0,
+        "low": 161.0,
+        "close": 162.0,
+        "volume": 271500
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 271500
+        "volume": 1017400
       }
     ]
   },
@@ -25382,14 +25382,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2700.0,
-        "high": 2770.0,
-        "low": 2660.0,
-        "close": 2700.0,
-        "volume": 5159000
-      },
       {
         "date": "2026-08-27",
         "open": 2700.0,
@@ -25856,11 +25848,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1520.0,
+        "high": 1575.0,
+        "low": 1510.0,
+        "close": 1545.0,
+        "volume": 28049000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 28049000
+        "volume": 93429100
       }
     ]
   },
@@ -25870,14 +25870,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2600.0,
-        "high": 2620.0,
-        "low": 2480.0,
-        "close": 2480.0,
-        "volume": 95604500
-      },
       {
         "date": "2026-08-27",
         "open": 2480.0,
@@ -26344,11 +26336,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1490.0,
+        "high": 1565.0,
+        "low": 1480.0,
+        "close": 1500.0,
+        "volume": 65951600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 65951600
+        "volume": 73347300
       }
     ]
   },
@@ -26358,14 +26358,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 456.0,
-        "high": 498.0,
-        "low": 448.0,
-        "close": 474.0,
-        "volume": 298290100
-      },
       {
         "date": "2026-08-27",
         "open": 470.0,
@@ -26832,11 +26824,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 380.0,
+        "high": 396.0,
+        "low": 376.0,
+        "close": 386.0,
+        "volume": 62502400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 62502400
+        "volume": 42415200
       }
     ]
   },
@@ -26846,14 +26846,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1440.0,
-        "high": 1510.0,
-        "low": 1420.0,
-        "close": 1470.0,
-        "volume": 876800
-      },
       {
         "date": "2026-08-27",
         "open": 1470.0,
@@ -27320,11 +27312,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1095.0,
+        "high": 1140.0,
+        "low": 1055.0,
+        "close": 1125.0,
+        "volume": 375400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 375400
+        "volume": 378500
       }
     ]
   },
@@ -27334,14 +27334,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 452.0,
-        "high": 476.0,
-        "low": 448.0,
-        "close": 460.0,
-        "volume": 174442800
-      },
       {
         "date": "2026-08-27",
         "open": 456.0,
@@ -27808,11 +27800,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 312.0,
+        "high": 314.0,
+        "low": 308.0,
+        "close": 310.0,
+        "volume": 11541800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 11541800
+        "volume": 15979500
       }
     ]
   },
@@ -27822,14 +27822,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 530.0,
-        "high": 535.0,
-        "low": 498.0,
-        "close": 500.0,
-        "volume": 61787200
-      },
       {
         "date": "2026-08-27",
         "open": 496.0,
@@ -28296,11 +28288,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 298.0,
+        "high": 308.0,
+        "low": 296.0,
+        "close": 300.0,
+        "volume": 55658000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 55658000
+        "volume": 73775400
       }
     ]
   },
@@ -28310,14 +28310,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 205.63,
-        "high": 209.4,
-        "low": 192.42,
-        "close": 192.42,
-        "volume": 117792100
-      },
       {
         "date": "2026-08-27",
         "open": 188.65,
@@ -28784,11 +28776,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 141.0,
+        "high": 144.0,
+        "low": 139.0,
+        "close": 140.0,
+        "volume": 34269300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 34269300
+        "volume": 36620100
       }
     ]
   },
@@ -28798,14 +28798,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 112.0,
-        "high": 113.0,
-        "low": 107.0,
-        "close": 107.0,
-        "volume": 97757200
-      },
       {
         "date": "2026-08-27",
         "open": 107.0,
@@ -29272,11 +29264,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 120.0,
+        "high": 123.0,
+        "low": 113.0,
+        "close": 116.0,
+        "volume": 88029000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 88029000
+        "volume": 79956100
       }
     ]
   },
@@ -29286,14 +29286,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2050.0,
-        "high": 2090.0,
-        "low": 1970.0,
-        "close": 1970.0,
-        "volume": 37954000
-      },
       {
         "date": "2026-08-27",
         "open": 1960.0,
@@ -29760,11 +29752,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 820.0,
+        "high": 850.0,
+        "low": 780.0,
+        "close": 805.0,
+        "volume": 72410100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 72410100
+        "volume": 52502200
       }
     ]
   },
@@ -29774,14 +29774,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 105.0,
-        "high": 129.0,
-        "low": 101.0,
-        "close": 101.0,
-        "volume": 326257500
-      },
       {
         "date": "2026-08-27",
         "open": 105.0,
@@ -30248,11 +30240,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 68.0,
+        "high": 81.0,
+        "low": 68.0,
+        "close": 74.0,
+        "volume": 49000300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 49000300
+        "volume": 22457400
       }
     ]
   },
@@ -30262,14 +30262,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1360.0,
-        "high": 1360.0,
-        "low": 1280.0,
-        "close": 1285.0,
-        "volume": 3654500
-      },
       {
         "date": "2026-08-27",
         "open": 1260.0,
@@ -30736,11 +30728,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 394.0,
+        "high": 416.0,
+        "low": 390.0,
+        "close": 402.0,
+        "volume": 7078100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 7078100
+        "volume": 5433800
       }
     ]
   },
@@ -30750,14 +30750,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 510.0,
-        "high": 525.0,
-        "low": 505.0,
-        "close": 505.0,
-        "volume": 4296400
-      },
       {
         "date": "2026-08-27",
         "open": 505.0,
@@ -31224,11 +31216,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 420.0,
+        "high": 428.0,
+        "low": 420.0,
+        "close": 426.0,
+        "volume": 326300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 326300
+        "volume": 444700
       }
     ]
   },
@@ -31238,14 +31238,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1625.0,
-        "high": 1635.0,
-        "low": 1600.0,
-        "close": 1600.0,
-        "volume": 11782900
-      },
       {
         "date": "2026-08-27",
         "open": 1600.0,
@@ -31712,11 +31704,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1495.0,
+        "high": 1535.0,
+        "low": 1490.0,
+        "close": 1515.0,
+        "volume": 7597400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 7597400
+        "volume": 9054300
       }
     ]
   },
@@ -31726,14 +31726,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 4543.93,
-        "high": 4681.04,
-        "low": 4524.35,
-        "close": 4543.93,
-        "volume": 2885400
-      },
       {
         "date": "2026-08-27",
         "open": 4563.52,
@@ -32200,11 +32192,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 4400.0,
+        "high": 4430.0,
+        "low": 4370.0,
+        "close": 4390.0,
+        "volume": 786200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 786200
+        "volume": 1337200
       }
     ]
   },
@@ -32214,14 +32214,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 362.0,
-        "high": 364.0,
-        "low": 354.0,
-        "close": 354.0,
-        "volume": 24866200
-      },
       {
         "date": "2026-08-27",
         "open": 352.0,
@@ -32688,11 +32680,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 352.0,
+        "high": 356.0,
+        "low": 348.0,
+        "close": 352.0,
+        "volume": 10803600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 10803600
+        "volume": 13400000
       }
     ]
   },
@@ -32702,14 +32702,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1505.0,
-        "high": 1510.0,
-        "low": 1455.0,
-        "close": 1455.0,
-        "volume": 1841700
-      },
       {
         "date": "2026-08-27",
         "open": 1460.0,
@@ -33176,11 +33168,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1160.0,
+        "high": 1175.0,
+        "low": 1115.0,
+        "close": 1135.0,
+        "volume": 7908900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 7908900
+        "volume": 11755400
       }
     ]
   },
@@ -33190,14 +33190,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 655.0,
-        "high": 690.0,
-        "low": 650.0,
-        "close": 675.0,
-        "volume": 51020000
-      },
       {
         "date": "2026-08-27",
         "open": 675.0,
@@ -33664,11 +33656,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 600.0,
+        "high": 615.0,
+        "low": 600.0,
+        "close": 605.0,
+        "volume": 4332100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 4332100
+        "volume": 51057400
       }
     ]
   },
@@ -33678,14 +33678,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 380.0,
-        "high": 380.0,
-        "low": 378.0,
-        "close": 378.0,
-        "volume": 2166300
-      },
       {
         "date": "2026-08-27",
         "open": 378.0,
@@ -34152,11 +34144,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 372.0,
+        "high": 376.0,
+        "low": 370.0,
+        "close": 370.0,
+        "volume": 1670900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1670900
+        "volume": 872000
       }
     ]
   },
@@ -34166,14 +34166,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1620.0,
-        "high": 1620.0,
-        "low": 1595.0,
-        "close": 1595.0,
-        "volume": 2440000
-      },
       {
         "date": "2026-08-27",
         "open": 1600.0,
@@ -34640,11 +34632,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1645.0,
+        "high": 1680.0,
+        "low": 1645.0,
+        "close": 1680.0,
+        "volume": 2428700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 2428700
+        "volume": 2331300
       }
     ]
   },
@@ -34654,14 +34654,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 478.0,
-        "high": 482.0,
-        "low": 466.0,
-        "close": 468.0,
-        "volume": 85549000
-      },
       {
         "date": "2026-08-27",
         "open": 466.0,
@@ -35128,11 +35120,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 500.0,
+        "high": 515.0,
+        "low": 496.0,
+        "close": 510.0,
+        "volume": 26583500
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 26583500
+        "volume": 81733600
       }
     ]
   },
@@ -35142,14 +35142,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1845.0,
-        "high": 1885.0,
-        "low": 1825.0,
-        "close": 1860.0,
-        "volume": 7558900
-      },
       {
         "date": "2026-08-27",
         "open": 1865.0,
@@ -35616,11 +35608,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1345.0,
+        "high": 1385.0,
+        "low": 1335.0,
+        "close": 1375.0,
+        "volume": 3753900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 3753900
+        "volume": 3075300
       }
     ]
   },
@@ -35630,14 +35630,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 655.0,
-        "high": 655.0,
-        "low": 635.0,
-        "close": 650.0,
-        "volume": 16691000
-      },
       {
         "date": "2026-08-27",
         "open": 645.0,
@@ -36104,11 +36096,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 494.0,
+        "high": 520.0,
+        "low": 488.0,
+        "close": 505.0,
+        "volume": 14165400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 14165400
+        "volume": 9779800
       }
     ]
   },
@@ -36118,14 +36118,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2210.0,
-        "high": 2220.0,
-        "low": 2210.0,
-        "close": 2210.0,
-        "volume": 189900
-      },
       {
         "date": "2026-08-27",
         "open": 2260.0,
@@ -36592,11 +36584,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1560.0,
+        "high": 1560.0,
+        "low": 1475.0,
+        "close": 1480.0,
+        "volume": 1748500
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1748500
+        "volume": 1342800
       }
     ]
   },
@@ -36606,14 +36606,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 339.33,
-        "high": 339.33,
-        "low": 335.45,
-        "close": 335.45,
-        "volume": 26820900
-      },
       {
         "date": "2026-08-27",
         "open": 335.45,
@@ -37080,11 +37072,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 336.0,
+        "high": 350.0,
+        "low": 336.0,
+        "close": 348.0,
+        "volume": 23262800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 23262800
+        "volume": 19732000
       }
     ]
   },
@@ -37094,14 +37094,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2645.04,
-        "high": 2654.73,
-        "low": 2615.98,
-        "close": 2625.66,
-        "volume": 537100
-      },
       {
         "date": "2026-08-27",
         "open": 2615.97,
@@ -37568,11 +37560,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 2240.0,
+        "high": 2260.0,
+        "low": 2210.0,
+        "close": 2250.0,
+        "volume": 850100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 850100
+        "volume": 463300
       }
     ]
   },
@@ -37582,14 +37582,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 438.0,
-        "high": 448.0,
-        "low": 432.0,
-        "close": 434.0,
-        "volume": 655900
-      },
       {
         "date": "2026-08-27",
         "open": 434.0,
@@ -38056,11 +38048,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 388.0,
+        "high": 392.0,
+        "low": 378.0,
+        "close": 390.0,
+        "volume": 433500
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 433500
+        "volume": 2083200
       }
     ]
   },
@@ -38070,14 +38070,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 400.0,
-        "high": 406.0,
-        "low": 394.0,
-        "close": 398.0,
-        "volume": 11803300
-      },
       {
         "date": "2026-08-27",
         "open": 398.0,
@@ -38544,11 +38536,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 390.0,
+        "high": 392.0,
+        "low": 380.0,
+        "close": 382.0,
+        "volume": 12441700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 12441700
+        "volume": 12467100
       }
     ]
   },
@@ -38558,14 +38558,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1424.48,
-        "high": 1424.48,
-        "low": 1400.66,
-        "close": 1400.66,
-        "volume": 2175600
-      },
       {
         "date": "2026-08-27",
         "open": 1400.66,
@@ -39032,11 +39024,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 2030.0,
+        "high": 2060.0,
+        "low": 2030.0,
+        "close": 2040.0,
+        "volume": 7472900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 7472900
+        "volume": 8957900
       }
     ]
   },
@@ -39046,14 +39046,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 635.0,
-        "high": 645.0,
-        "low": 625.0,
-        "close": 625.0,
-        "volume": 19634300
-      },
       {
         "date": "2026-08-27",
         "open": 625.0,
@@ -39520,11 +39512,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 478.0,
+        "high": 486.0,
+        "low": 478.0,
+        "close": 486.0,
+        "volume": 4413400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 4413400
+        "volume": 11481400
       }
     ]
   },
@@ -39534,14 +39534,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 620.0,
-        "high": 625.0,
-        "low": 605.0,
-        "close": 605.0,
-        "volume": 15112400
-      },
       {
         "date": "2026-08-27",
         "open": 610.0,
@@ -40008,11 +40000,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 535.0,
+        "high": 540.0,
+        "low": 520.0,
+        "close": 520.0,
+        "volume": 8645100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 8645100
+        "volume": 7668500
       }
     ]
   },
@@ -40022,14 +40022,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 268.0,
-        "high": 268.0,
-        "low": 262.0,
-        "close": 262.0,
-        "volume": 45552700
-      },
       {
         "date": "2026-08-27",
         "open": 262.0,
@@ -40496,11 +40488,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 276.0,
+        "high": 280.0,
+        "low": 276.0,
+        "close": 280.0,
+        "volume": 17911100
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 17911100
+        "volume": 32217900
       }
     ]
   },
@@ -40510,14 +40510,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 316.0,
-        "high": 318.0,
-        "low": 310.0,
-        "close": 310.0,
-        "volume": 21044700
-      },
       {
         "date": "2026-08-27",
         "open": 310.0,
@@ -40984,11 +40976,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 276.0,
+        "high": 282.0,
+        "low": 274.0,
+        "close": 280.0,
+        "volume": 13500900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 13500900
+        "volume": 35387300
       }
     ]
   },
@@ -40998,14 +40998,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 124.0,
-        "high": 125.0,
-        "low": 120.0,
-        "close": 123.0,
-        "volume": 13184600
-      },
       {
         "date": "2026-08-27",
         "open": 124.0,
@@ -41472,11 +41464,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 97.0,
+        "high": 99.0,
+        "low": 96.0,
+        "close": 97.0,
+        "volume": 9231000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 9231000
+        "volume": 4681200
       }
     ]
   },
@@ -41486,14 +41486,6 @@ const EMITEN_DATA = [
     "price": 133.0,
     "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 133.0,
-        "high": 133.0,
-        "low": 133.0,
-        "close": 133.0,
-        "volume": 0
-      },
       {
         "date": "2026-08-27",
         "open": 133.0,
@@ -41957,6 +41949,14 @@ const EMITEN_DATA = [
         "low": 133.0,
         "close": 133.0,
         "volume": 0
+      },
+      {
+        "date": "2026-11-17",
+        "open": 133.0,
+        "high": 133.0,
+        "low": 133.0,
+        "close": 133.0,
+        "volume": 0
       }
     ]
   },
@@ -41966,14 +41966,6 @@ const EMITEN_DATA = [
     "price": 161.0,
     "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 204.0,
-        "high": 208.0,
-        "low": 200.0,
-        "close": 206.0,
-        "volume": 8502200
-      },
       {
         "date": "2026-08-27",
         "open": 206.0,
@@ -42437,6 +42429,14 @@ const EMITEN_DATA = [
         "low": 161.0,
         "close": 161.0,
         "volume": 0
+      },
+      {
+        "date": "2026-11-17",
+        "open": 161.0,
+        "high": 161.0,
+        "low": 161.0,
+        "close": 161.0,
+        "volume": 0
       }
     ]
   },
@@ -42446,14 +42446,6 @@ const EMITEN_DATA = [
     "price": 204.0,
     "change": 0.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 204.0,
-        "high": 204.0,
-        "low": 204.0,
-        "close": 204.0,
-        "volume": 0
-      },
       {
         "date": "2026-08-27",
         "open": 204.0,
@@ -42917,6 +42909,14 @@ const EMITEN_DATA = [
         "low": 204.0,
         "close": 204.0,
         "volume": 0
+      },
+      {
+        "date": "2026-11-17",
+        "open": 204.0,
+        "high": 204.0,
+        "low": 204.0,
+        "close": 204.0,
+        "volume": 0
       }
     ]
   },
@@ -42926,14 +42926,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1466.23,
-        "high": 1524.49,
-        "low": 1427.39,
-        "close": 1490.51,
-        "volume": 4764300
-      },
       {
         "date": "2026-08-27",
         "open": 1471.09,
@@ -43400,11 +43392,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1355.0,
+        "high": 1360.0,
+        "low": 1285.0,
+        "close": 1300.0,
+        "volume": 4794700
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 4794700
+        "volume": 2253600
       }
     ]
   },
@@ -43414,14 +43414,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 119.0,
-        "high": 121.0,
-        "low": 117.0,
-        "close": 117.0,
-        "volume": 30767300
-      },
       {
         "date": "2026-08-27",
         "open": 117.0,
@@ -43888,11 +43880,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 102.0,
+        "high": 115.0,
+        "low": 102.0,
+        "close": 108.0,
+        "volume": 10560000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 10560000
+        "volume": 6605100
       }
     ]
   },
@@ -43902,14 +43902,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 85.0,
-        "high": 86.0,
-        "low": 76.0,
-        "close": 77.0,
-        "volume": 882642800
-      },
       {
         "date": "2026-08-27",
         "open": 76.0,
@@ -44376,11 +44368,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 34.0,
+        "high": 36.0,
+        "low": 33.0,
+        "close": 33.0,
+        "volume": 130338000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 130338000
+        "volume": 69575800
       }
     ]
   },
@@ -44390,14 +44390,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1505.0,
-        "high": 1520.0,
-        "low": 1485.0,
-        "close": 1490.0,
-        "volume": 16460200
-      },
       {
         "date": "2026-08-27",
         "open": 1485.0,
@@ -44864,11 +44856,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1640.0,
+        "high": 1680.0,
+        "low": 1620.0,
+        "close": 1635.0,
+        "volume": 12321300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 12321300
+        "volume": 12843200
       }
     ]
   },
@@ -44878,14 +44878,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 5675.0,
-        "high": 5675.0,
-        "low": 5500.0,
-        "close": 5500.0,
-        "volume": 2622500
-      },
       {
         "date": "2026-08-27",
         "open": 5475.0,
@@ -45352,11 +45344,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 5950.0,
+        "high": 6100.0,
+        "low": 5950.0,
+        "close": 6025.0,
+        "volume": 859600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 859600
+        "volume": 1411400
       }
     ]
   },
@@ -45366,14 +45366,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 23708.11,
-        "high": 23855.36,
-        "low": 23413.6,
-        "close": 23413.6,
-        "volume": 8561500
-      },
       {
         "date": "2026-08-27",
         "open": 23487.22,
@@ -45840,11 +45832,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 24825.0,
+        "high": 25000.0,
+        "low": 24525.0,
+        "close": 24525.0,
+        "volume": 1555400
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1555400
+        "volume": 1751200
       }
     ]
   },
@@ -45854,14 +45854,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 3034.07,
-        "high": 3190.67,
-        "low": 3014.5,
-        "close": 3063.43,
-        "volume": 14439900
-      },
       {
         "date": "2026-08-27",
         "open": 3063.43,
@@ -46328,11 +46320,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 3230.0,
+        "high": 3230.0,
+        "low": 3130.0,
+        "close": 3140.0,
+        "volume": 3436200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 3436200
+        "volume": 2148900
       }
     ]
   },
@@ -46342,14 +46342,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1370.0,
-        "high": 1415.0,
-        "low": 1355.0,
-        "close": 1400.0,
-        "volume": 16820600
-      },
       {
         "date": "2026-08-27",
         "open": 1400.0,
@@ -46816,11 +46808,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1175.0,
+        "high": 1180.0,
+        "low": 1140.0,
+        "close": 1140.0,
+        "volume": 4497200
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 4497200
+        "volume": 3148900
       }
     ]
   },
@@ -46830,14 +46830,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1692.4,
-        "high": 1692.4,
-        "low": 1653.5,
-        "close": 1658.36,
-        "volume": 3087700
-      },
       {
         "date": "2026-08-27",
         "open": 1658.36,
@@ -47304,11 +47296,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1640.0,
+        "high": 1645.0,
+        "low": 1615.0,
+        "close": 1625.0,
+        "volume": 1332900
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1332900
+        "volume": 2295700
       }
     ]
   },
@@ -47318,14 +47318,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 665.0,
-        "high": 670.0,
-        "low": 650.0,
-        "close": 655.0,
-        "volume": 1928700
-      },
       {
         "date": "2026-08-27",
         "open": 660.0,
@@ -47792,11 +47784,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 565.0,
+        "high": 570.0,
+        "low": 540.0,
+        "close": 550.0,
+        "volume": 2313800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 2313800
+        "volume": 3447700
       }
     ]
   },
@@ -47806,14 +47806,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 2100.0,
-        "high": 2100.0,
-        "low": 1995.95,
-        "close": 2024.32,
-        "volume": 23700500
-      },
       {
         "date": "2026-08-27",
         "open": 2024.32,
@@ -48280,11 +48272,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1515.0,
+        "high": 1565.0,
+        "low": 1515.0,
+        "close": 1520.0,
+        "volume": 24673800
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 24673800
+        "volume": 35542100
       }
     ]
   },
@@ -48294,14 +48294,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1878.16,
-        "high": 1921.5,
-        "low": 1878.16,
-        "close": 1878.16,
-        "volume": 17777100
-      },
       {
         "date": "2026-08-27",
         "open": 1892.61,
@@ -48768,11 +48760,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1785.0,
+        "high": 1830.0,
+        "low": 1785.0,
+        "close": 1800.0,
+        "volume": 3869600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 3869600
+        "volume": 7129300
       }
     ]
   },
@@ -48782,14 +48782,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1460.0,
-        "high": 1510.0,
-        "low": 1455.0,
-        "close": 1470.0,
-        "volume": 6210800
-      },
       {
         "date": "2026-08-27",
         "open": 1470.0,
@@ -49256,11 +49248,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1295.0,
+        "high": 1315.0,
+        "low": 1290.0,
+        "close": 1295.0,
+        "volume": 1032000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 1032000
+        "volume": 683500
       }
     ]
   },
@@ -49270,14 +49270,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 865.23,
-        "high": 869.96,
-        "low": 832.13,
-        "close": 832.13,
-        "volume": 10779600
-      },
       {
         "date": "2026-08-27",
         "open": 841.59,
@@ -49744,11 +49736,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 930.0,
+        "high": 950.0,
+        "low": 925.0,
+        "close": 940.0,
+        "volume": 2294000
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 2294000
+        "volume": 3656800
       }
     ]
   },
@@ -49758,14 +49758,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 1455.0,
-        "high": 1460.0,
-        "low": 1415.0,
-        "close": 1420.0,
-        "volume": 11624600
-      },
       {
         "date": "2026-08-27",
         "open": 1420.0,
@@ -50232,11 +50224,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 1595.0,
+        "high": 1635.0,
+        "low": 1590.0,
+        "close": 1615.0,
+        "volume": 7471600
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 7471600
+        "volume": 6934200
       }
     ]
   },
@@ -50246,14 +50246,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 7730.14,
-        "high": 7778.75,
-        "low": 7608.59,
-        "close": 7608.59,
-        "volume": 1347600
-      },
       {
         "date": "2026-08-27",
         "open": 7511.36,
@@ -50720,11 +50712,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 9900.0,
+        "high": 10100.0,
+        "low": 9850.0,
+        "close": 9975.0,
+        "volume": 2821500
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 2821500
+        "volume": 1260000
       }
     ]
   },
@@ -50734,14 +50734,6 @@ const EMITEN_DATA = [
     "price": 0.0,
     "change": -100.0,
     "history": [
-      {
-        "date": "2026-08-26",
-        "open": 601.19,
-        "high": 620.43,
-        "low": 586.76,
-        "close": 586.76,
-        "volume": 13941400
-      },
       {
         "date": "2026-08-27",
         "open": 586.76,
@@ -51208,11 +51200,19 @@ const EMITEN_DATA = [
       },
       {
         "date": "2026-11-17",
+        "open": 498.0,
+        "high": 510.0,
+        "low": 496.0,
+        "close": 498.0,
+        "volume": 6853300
+      },
+      {
+        "date": "2026-11-18",
         "open": 0.0,
         "high": 0.0,
         "low": 0.0,
         "close": 0.0,
-        "volume": 6853300
+        "volume": 5240400
       }
     ]
   }
